@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8b7303c5d9d6ac240ae11647e98b0be2
+guid: 433f3f9a84d621545b57e6ede8976e40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6607135034987848440
-    second: poketree_0
+      213: 3956090103689075590
+    second: poketree 1_0
+  - first:
+      213: 2144704613937038566
+    second: poketree 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +43,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,7 +103,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: poketree_0
+      name: poketree 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80dd28811bdbe44a0800000000000000
-      internalID: -6607135034987848440
+      spriteID: 68b53d13dfad6e630800000000000000
+      internalID: 3956090103689075590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: poketree_1
+      name: poketree 1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -135,10 +138,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5d04b6641760942478aff3e413eb4ac7
-      internalID: -1987790518
+      spriteID: 6e4cbd5bb7583cd10800000000000000
+      internalID: 2144704613937038566
       vertices: []
       indices: 
       edges: []
@@ -147,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: da75de5d1c925e045a508e959f74eee6
     internalID: 0
     vertices: []
     indices: 
@@ -157,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      poketree_0: -6607135034987848440
-      poketree_1: -1987790518
+      poketree 1_0: 3956090103689075590
+      poketree 1_1: 2144704613937038566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
