@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 6a74a8fd403865242a37725df8e3e2e8
+guid: 5585bc273a0d64d4da24eab56f5b51f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1517234450559968628
-    second: PinkCar_0
-  - first:
-      213: 4131314410762694057
-    second: PinkCar_1
+      213: -8915581084725715815
+    second: SPOILER_Dead_Peanut_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PinkCar_0
+      name: SPOILER_Dead_Peanut_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 256
-        height: 256
+        y: 39
+        width: 291
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 475ac92b1bc4e0510800000000000000
-      internalID: 1517234450559968628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PinkCar_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ad66f46190655930800000000000000
-      internalID: 4131314410762694057
+      spriteID: 99c5bbe7d3e754480800000000000000
+      internalID: -8915581084725715815
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7229e65c98a99fa439941e6707cfe340
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PinkCar_0: 1517234450559968628
-      PinkCar_1: 4131314410762694057
+      SPOILER_Dead_Peanut_0: -8915581084725715815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
