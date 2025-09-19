@@ -20,7 +20,7 @@ public class Movement2 : MonoBehaviour
             Move(Vector2.up);
             if (animator != null)
             {
-                animator.SetTrigger("MoveTrigger"); // Ensure this trigger exists in your Animator
+                animator.SetTrigger("MoveTrigger"); //play jump animation
             }
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
@@ -29,7 +29,7 @@ public class Movement2 : MonoBehaviour
             Move(Vector2.down);
             if (animator != null)
             {
-                animator.SetTrigger("MoveTrigger"); // Ensure this trigger exists in your Animator
+                animator.SetTrigger("MoveTrigger");
             }
         }
         else

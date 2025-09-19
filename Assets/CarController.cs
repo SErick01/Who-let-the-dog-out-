@@ -4,6 +4,7 @@ public class CarController : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
     [SerializeField] private bool movingLeft = true;
+    public static bool stopAllCars = false;
 
     private float screenBoundary;
   
@@ -25,18 +26,31 @@ public class CarController : MonoBehaviour
         {
             direction = Vector3.right;
         }
-
-        //move car
-        transform.Translate(direction * speed * Time.deltaTime);
-
-
-        //after hit screen boundary; "respawn/ move back"
-        if (movingLeft && transform.position.x < -screenBoundary) {
-            transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
-        }
-        else if (!movingLeft && transform.position.x > screenBoundary)
+        if (!stopAllCars)
         {
-            transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
+            //move car
+            transform.Translate(direction * speed * Time.deltaTime);
+
+            //after hit screen boundary; "respawn/ move back"
+            if (movingLeft && transform.position.x < -screenBoundary)
+            {
+                transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
+            }
+            else if (!movingLeft && transform.position.x > screenBoundary)
+            {
+                transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
+            }
+        }
+
+
+        
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            stopAllCars = true;
         }
     }
 }

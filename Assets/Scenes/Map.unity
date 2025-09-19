@@ -487,8 +487,8 @@ GameObject:
   - component: {fileID: 219918920}
   - component: {fileID: 219918924}
   - component: {fileID: 219918926}
-  - component: {fileID: 219918925}
-  m_Layer: 0
+  - component: {fileID: 219918927}
+  m_Layer: 3
   m_Name: Peanut
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ Transform:
   m_GameObject: {fileID: 219918919}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.41, y: -2.19, z: -8}
+  m_LocalPosition: {x: 0.23, y: -1.32, z: -8}
   m_LocalScale: {x: 1.0789, y: 1.0552, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -617,11 +617,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.25281698, y: -0.23866592}
+  m_Offset: {x: -0.24135935, y: 0.052078485}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -631,21 +631,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8670937, y: 1.0842559}
+  m_Size: {x: 2.1649888, y: 1.6188853}
   m_EdgeRadius: 0
---- !u!114 &219918925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219918919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b293b358460f734f81a2f1f69e24f6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDistance: 1
 --- !u!50 &219918926
 Rigidbody2D:
   serializedVersion: 5
@@ -661,7 +648,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -673,6 +660,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &219918927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219918919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b293b358460f734f81a2f1f69e24f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1.25
 --- !u!1 &344873089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,7 +1799,8 @@ GameObject:
   - component: {fileID: 751145912}
   - component: {fileID: 751145911}
   - component: {fileID: 751145910}
-  m_Layer: 0
+  - component: {fileID: 751145915}
+  m_Layer: 6
   m_Name: Car1 (2)
   m_TagString: Car
   m_Icon: {fileID: 0}
@@ -1854,7 +1855,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.039151967}
+  m_Offset: {x: 0, y: -0.05956745}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1864,7 +1865,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.56, y: 0.91561615}
+  m_Size: {x: 2.56, y: 1.3647571}
   m_EdgeRadius: 0
 --- !u!95 &751145912
 Animator:
@@ -1958,6 +1959,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &751145915
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751145909}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &763044105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,7 +2172,7 @@ GameObject:
   - component: {fileID: 876215988}
   - component: {fileID: 876215987}
   - component: {fileID: 876215990}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewCat_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2389,7 +2417,8 @@ GameObject:
   - component: {fileID: 993083776}
   - component: {fileID: 993083775}
   - component: {fileID: 993083774}
-  m_Layer: 0
+  - component: {fileID: 993083779}
+  m_Layer: 6
   m_Name: Car1 (1)
   m_TagString: Car
   m_Icon: {fileID: 0}
@@ -2444,7 +2473,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.039151967}
+  m_Offset: {x: 0, y: -0.10039848}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2454,7 +2483,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.56, y: 0.91561615}
+  m_Size: {x: 2.56, y: 1.3647572}
   m_EdgeRadius: 0
 --- !u!95 &993083776
 Animator:
@@ -2542,12 +2571,39 @@ Transform:
   m_GameObject: {fileID: 993083773}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.54, y: 1.05, z: 0}
+  m_LocalPosition: {x: -0.19, y: 1.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &993083779
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993083773}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1004794403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,7 +3423,8 @@ GameObject:
   - component: {fileID: 1483997250}
   - component: {fileID: 1483997253}
   - component: {fileID: 1483997254}
-  m_Layer: 0
+  - component: {fileID: 1483997255}
+  m_Layer: 6
   m_Name: Car1
   m_TagString: Car
   m_Icon: {fileID: 0}
@@ -3500,7 +3557,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.039151967}
+  m_Offset: {x: 0, y: -0.07998294}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3510,7 +3567,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.56, y: 0.91561615}
+  m_Size: {x: 2.56, y: 1.3239261}
   m_EdgeRadius: 0
 --- !u!114 &1483997254
 MonoBehaviour:
@@ -3526,6 +3583,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   movingLeft: 0
+--- !u!50 &1483997255
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483997249}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1485115272
 GameObject:
   m_ObjectHideFlags: 0
