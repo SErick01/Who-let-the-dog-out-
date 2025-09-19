@@ -59,7 +59,7 @@ public class Movement2 : MonoBehaviour
         {
             if (animator != null)
             {
-                animator.SetTrigger("Peanut_JUMP");
+                animator.SetTrigger("MoveTrigger");
             }
         }
         else
