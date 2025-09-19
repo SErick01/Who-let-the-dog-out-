@@ -6,14 +6,14 @@ public class collisions : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInParent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Car"))
         {
-            animator.SetTrigger("Die");
+            animator.SetTrigger("CrashTrigger");
         }
     }
 
