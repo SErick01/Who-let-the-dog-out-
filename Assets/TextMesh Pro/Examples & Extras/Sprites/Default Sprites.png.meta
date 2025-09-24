@@ -1,54 +1,26 @@
 fileFormatVersion: 2
-guid: 16153f0d256994c429dd5d8d1dc3b7b6
+guid: a0fc465d6cf04254a2938578735e2383
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7204109203736516883
-    second: Peanut_0
-  - first:
-      213: 121451042957662687
-    second: Peanut_1
-  - first:
-      213: 2873017385034297819
-    second: Peanut_2
-  - first:
-      213: -6729662499980990572
-    second: Peanut_3
-  - first:
-      213: 2005881203673293776
-    second: Peanut_4
-  - first:
-      213: 3971951923593995322
-    second: Peanut_5
-  - first:
-      213: 3018144346029119604
-    second: Peanut_6
-  - first:
-      213: 837929028711304022
-    second: Peanut_7
-  - first:
-      213: 8350535017518414777
-    second: Peanut_8
-  - first:
-      213: 3701705359942786651
-    second: Peanut_9
-  - first:
-      213: 5997947263660741876
-    second: Peanut_10
-  - first:
-      213: -5043273377428124931
-    second: Peanut_11
-  - first:
-      213: 8449247292925577854
-    second: Peanut_12
-  - first:
-      213: 5664489395758423212
-    second: Peanut_13
+  fileIDToRecycleName:
+    21300000: Default Sprite Asset_0
+    21300002: Default Sprite Asset_1
+    21300004: Default Sprite Asset_2
+    21300006: Default Sprite Asset_3
+    21300008: Default Sprite Asset_4
+    21300010: Default Sprite Asset_5
+    21300012: Default Sprite Asset_6
+    21300014: Default Sprite Asset_7
+    21300016: Default Sprite Asset_8
+    21300018: Default Sprite Asset_11
+    21300020: Default Sprite Asset_12
+    21300022: Default Sprite Asset_13
+    21300024: Default Sprite Asset_14
+    21300026: Default Sprite Asset_15
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -62,23 +34,20 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
-  maxTextureSize: 2048
+  textureFormat: -1
+  maxTextureSize: 512
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -90,41 +59,44 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -132,350 +104,334 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Peanut_0
+      name: Default Sprite Asset_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 768
-        width: 256
-        height: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31956dbd6232af360800000000000000
-      internalID: 7204109203736516883
+      spriteID: a09de5b73098b2247921a5d8566535e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_1
+      name: Default Sprite Asset_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f23aaeaabde92743b6e764e7373d24e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_2
       rect:
         serializedVersion: 2
         x: 256
-        y: 768
-        width: 256
-        height: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd99711841b7fa100800000000000000
-      internalID: 121451042957662687
+      spriteID: 7a53700b4f8ee664dbc6d96f6897dcca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_2
+      name: Default Sprite Asset_3
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd1bd7cf6120fd720800000000000000
-      internalID: 2873017385034297819
+      spriteID: 8aee68303a75a5240a3bfb6295e83c8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_3
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 497ad5e8c9f6b92a0800000000000000
-      internalID: -6729662499980990572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Peanut_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d3649eb35256db10800000000000000
-      internalID: 2005881203673293776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Peanut_5
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a34efbeea353f1730800000000000000
-      internalID: 3971951923593995322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Peanut_6
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4785be9ba4a92e920800000000000000
-      internalID: 3018144346029119604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Peanut_7
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65b4357130ce0ab00800000000000000
-      internalID: 837929028711304022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Peanut_8
+      name: Default Sprite Asset_4
       rect:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 256
-        height: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bb35abfa5f03e370800000000000000
-      internalID: 8350535017518414777
+      spriteID: 62b55056d79f32242863dd4585a55f00
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_9
+      name: Default Sprite Asset_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e7bb1e441a02942a5912eb1bd6beb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_6
       rect:
         serializedVersion: 2
         x: 256
         y: 256
-        width: 256
-        height: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5e9c8299691f5330800000000000000
-      internalID: 3701705359942786651
+      spriteID: 264af04cf7ba9a6499d6605e8546b922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_10
+      name: Default Sprite Asset_7
       rect:
         serializedVersion: 2
-        x: 512
+        x: 384
         y: 256
-        width: 256
-        height: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f45600024dfc3350800000000000000
-      internalID: 5997947263660741876
+      spriteID: 5df87e7d9c18ccf4eab4728947f9d93c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_11
+      name: Default Sprite Asset_8
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 256
-        height: 256
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfa46396591b20ab0800000000000000
-      internalID: -5043273377428124931
+      spriteID: 7670512dd461b8940a38efcf24a8081d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_12
+      name: Default Sprite Asset_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2f6b0f97da03b43a92ce0dc86fc195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a824a95a1c14570800000000000000
-      internalID: 8449247292925577854
+      spriteID: c22fab65c0b72cf43bad23754277ed43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Peanut_13
+      name: Default Sprite Asset_13
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 0
-        width: 256
-        height: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cacd52cf71f4c9e40800000000000000
-      internalID: 5664489395758423212
+      spriteID: e669cb3dece225c4c80a6260a92e44a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc45a1c7b06b45d43aec543c9d13ac11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Sprite Asset_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d0fca21c1e3dd46889168e33cda991
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
-    customData: 
     physicsShape: []
     bones: []
-    spriteID: 953af409b132f334095455a0dab4596e
-    internalID: 0
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      Peanut_0: 7204109203736516883
-      Peanut_1: 121451042957662687
-      Peanut_10: 5997947263660741876
-      Peanut_11: -5043273377428124931
-      Peanut_12: 8449247292925577854
-      Peanut_13: 5664489395758423212
-      Peanut_2: 2873017385034297819
-      Peanut_3: -6729662499980990572
-      Peanut_4: 2005881203673293776
-      Peanut_5: 3971951923593995322
-      Peanut_6: 3018144346029119604
-      Peanut_7: 837929028711304022
-      Peanut_8: 8350535017518414777
-      Peanut_9: 3701705359942786651
-  mipmapLimitGroupName: 
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
