@@ -11,13 +11,12 @@ public class Movement2 : MonoBehaviour
     public ContactFilter2D movementFilter;
     //private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Rigidbody2D rb; //For physics interactions
-    public AudioSource Bork;
-
+    public AudioSource bork;
+    
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        animator.SetBool("winGame", false);
     }
 
     // Update is called once per frame
@@ -66,7 +65,7 @@ public class Movement2 : MonoBehaviour
                 if (animator != null)
                 {
                     animator.SetTrigger("MoveTrigger");
-                    Bork.Play();
+                    bork.Play();
                 }
             }
         }
