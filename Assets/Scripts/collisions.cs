@@ -22,12 +22,16 @@ public class collisions : MonoBehaviour
             GameOver = true;
             soundtrack.Stop();
             gameOver.Play();
+
+            // add delay to Loading Scene
             LoadScene.LoadSceneByName("BEnd");
         }
         else if (collision.CompareTag("Cat"))
         {
             winGame = true;
             soundtrack.Stop();
+
+            //add delay to Loading Scene; not immediate
             LoadScene.LoadSceneByName("GEnd1");
             
         }
