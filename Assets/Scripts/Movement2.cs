@@ -17,6 +17,8 @@ public class Movement2 : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        collisions.GameOver = false;
+        collisions.winGame = false;
     }
 
     // Update is called once per frame
