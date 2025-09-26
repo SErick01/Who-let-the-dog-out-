@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class collisions : MonoBehaviour
 {
+    public static bool winGame = false;
+    public static bool gameOver = false;
+
     private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,6 +17,11 @@ public class collisions : MonoBehaviour
         if (collision.CompareTag("Car"))
         {
             animator.SetTrigger("CrashTrigger");
+            gameOver = true;
+        }
+        else if (collision.CompareTag("Cat"))
+        {
+            winGame = true;
         }
     }
 
