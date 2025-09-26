@@ -46,10 +46,11 @@ public class CarController : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D (Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            collisions.GameOver = true;
             stopAllCars = true;
         }
     }
