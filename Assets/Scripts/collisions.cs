@@ -6,6 +6,8 @@ public class collisions : MonoBehaviour
     public static bool gameOver = false;
 
     private Animator animator;
+    public AudioSource soundtrack;
+    public AudioSource gameOver;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +24,8 @@ public class collisions : MonoBehaviour
         else if (collision.CompareTag("Cat"))
         {
             winGame = true;
+            soundtrack.Stop();
+            gameOver.Play();
         }
     }
 
