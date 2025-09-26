@@ -3,6 +3,8 @@ using UnityEngine;
 public class collisions : MonoBehaviour
 {
     private Animator animator;
+    public AudioSource soundtrack;
+    public AudioSource gameOver;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,6 +16,8 @@ public class collisions : MonoBehaviour
         if (collision.CompareTag("Car"))
         {
             animator.SetTrigger("CrashTrigger");
+            soundtrack.Stop();
+            gameOver.Play();
         }
     }
 

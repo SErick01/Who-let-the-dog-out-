@@ -11,6 +11,7 @@ public class Movement2 : MonoBehaviour
     public ContactFilter2D movementFilter;
     //private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Rigidbody2D rb; //For physics interactions
+    public AudioSource bork;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -61,6 +62,7 @@ public class Movement2 : MonoBehaviour
             {
                 animator.SetTrigger("MoveTrigger");
             }
+            bork.Play();
         }
         else
         {
