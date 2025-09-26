@@ -50,7 +50,7 @@ public class CarController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collisions.gameOver = true;
+            collisions.GameOver = true;
             stopAllCars = true;
         }
     }

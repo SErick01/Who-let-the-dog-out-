@@ -3,7 +3,7 @@ using UnityEngine;
 public class collisions : MonoBehaviour
 {
     public static bool winGame = false;
-    public static bool gameOver = false;
+    public static bool GameOver = false;
 
     private Animator animator;
     public AudioSource soundtrack;
@@ -19,13 +19,17 @@ public class collisions : MonoBehaviour
         if (collision.CompareTag("Car"))
         {
             animator.SetTrigger("CrashTrigger");
-            gameOver = true;
+            GameOver = true;
+            soundtrack.Stop();
+            gameOver.Play();
+            LoadScene.LoadSceneByName("BEnd");
         }
         else if (collision.CompareTag("Cat"))
         {
             winGame = true;
             soundtrack.Stop();
-            gameOver.Play();
+            LoadScene.LoadSceneByName("GEnd1");
+            
         }
     }
 

@@ -23,7 +23,7 @@ public class Movement2 : MonoBehaviour
    
     void Update()
     {
-        if (!collisions.winGame && !collisions.gameOver)
+        if (!collisions.winGame && !collisions.GameOver)
         {
             //moves up and down
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
