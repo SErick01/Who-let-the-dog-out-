@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 999621169327202802}
   - component: {fileID: 5302367235985996003}
   m_Layer: 0
-  m_Name: SceneFlow
+  m_Name: SceneFlow - Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

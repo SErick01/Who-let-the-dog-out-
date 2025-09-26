@@ -22,13 +22,13 @@ public class collisions : MonoBehaviour
             GameOver = true;
             soundtrack.Stop();
             gameOver.Play();
-            LoadScene.LoadSceneByName("BEnd");
+            LoadScene.Instance.LoadSceneByName("BEnd");
         }
         else if (collision.CompareTag("Cat"))
         {
             winGame = true;
             soundtrack.Stop();
-            LoadScene.LoadSceneByName("GEnd1");
+            LoadScene.Instance.LoadSceneByName("GEnd1");
             
         }
     }
