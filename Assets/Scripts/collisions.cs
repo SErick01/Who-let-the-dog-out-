@@ -24,7 +24,7 @@ public class collisions : MonoBehaviour
             gameOver.Play();
 
             // add delay to Loading Scene
-            LoadScene.LoadSceneByName("BEnd");
+            LoadScene.Instance.LoadSceneByName("BEnd");
         }
         else if (collision.CompareTag("Cat"))
         {
@@ -32,7 +32,7 @@ public class collisions : MonoBehaviour
             soundtrack.Stop();
 
             //add delay to Loading Scene; not immediate
-            LoadScene.LoadSceneByName("GEnd1");
+            LoadScene.Instance.LoadSceneByName("GEnd1");
             
         }
     }
