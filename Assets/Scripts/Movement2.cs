@@ -16,6 +16,7 @@ public class Movement2 : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.SetBool("winGame", false);
     }
 
     // Update is called once per frame

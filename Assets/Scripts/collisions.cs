@@ -20,12 +20,15 @@ public class collisions : MonoBehaviour
         {
             animator.SetTrigger("CrashTrigger");
             GameOver = true;
+            gameOver.Play();
+            soundtrack.Stop();
         }
         else if (collision.CompareTag("Cat"))
         {
             winGame = true;
+            animator.SetBool("winGame", true);
             soundtrack.Stop();
-            gameOver.Play();
+            
         }
     }
 
