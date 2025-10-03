@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: faace5c8d12645e4f8706ec623acd088
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4421323923143625937
+    second: Pathways_0
+  - first:
+      213: 2555927448929322933
+    second: Pathways_1
+  - first:
+      213: 1140605395767479242
+    second: Pathways_2
+  - first:
+      213: 950815986083097698
+    second: Pathways_3
+  - first:
+      213: -2950796881660950708
+    second: Pathways_4
+  - first:
+      213: 6032027534091902637
+    second: Pathways_5
+  - first:
+      213: -4217818619037522301
+    second: Pathways_6
+  - first:
+      213: -7321553886670973691
+    second: Pathways_7
+  - first:
+      213: 3887023719134094262
+    second: Pathways_8
+  - first:
+      213: 8662901778737055420
+    second: Pathways_9
+  - first:
+      213: 205290186243301343
+    second: Pathways_10
+  - first:
+      213: -4825484782821471128
+    second: Pathways_11
+  - first:
+      213: -1646880472086527841
+    second: Pathways_12
+  - first:
+      213: -6825200578930404721
+    second: Pathways_13
+  - first:
+      213: 2933759639245243778
+    second: Pathways_14
+  - first:
+      213: 5653828911985058183
+    second: Pathways_15
+  - first:
+      213: -9087461955199421110
+    second: Pathways_16
+  - first:
+      213: 8574015363184106338
+    second: Pathways_17
+  - first:
+      213: -5487321674755056281
+    second: Pathways_18
+  - first:
+      213: 7343387620215687741
+    second: Pathways_19
+  - first:
+      213: 8517005215651865295
+    second: Pathways_20
+  - first:
+      213: 969609180524325223
+    second: Pathways_21
+  - first:
+      213: 3779291559344661497
+    second: Pathways_22
+  - first:
+      213: 4126910688307727835
+    second: Pathways_23
+  - first:
+      213: 168895988493082842
+    second: Pathways_24
+  - first:
+      213: -7043598577432394058
+    second: Pathways_25
+  - first:
+      213: -8731154414984817609
+    second: Pathways_26
+  - first:
+      213: 6777565352205924998
+    second: Pathways_27
+  - first:
+      213: 1019187412856611691
+    second: Pathways_28
+  - first:
+      213: 4697586440141398677
+    second: Pathways_29
+  - first:
+      213: 8903289861187776960
+    second: Pathways_30
+  - first:
+      213: -4772144687625237046
+    second: Pathways_31
+  - first:
+      213: 600683485626041577
+    second: Pathways_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pathways_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23761c215d44a2c0800000000000000
+      internalID: -4421323923143625937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pathways_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b74a11197a787320800000000000000
+      internalID: 2555927448929322933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87360395cb7226449bf047a8fceb1f53
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pathways_0: -4421323923143625937
+      Pathways_1: 2555927448929322933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
