@@ -5,6 +5,7 @@ public class collisions : MonoBehaviour
 {
     public static bool winGame = false;
     public static bool GameOver = false;
+    public static bool obstacleCheck = false;
 
     private Animator animator;
     public AudioSource soundtrack;
@@ -43,6 +44,11 @@ public class collisions : MonoBehaviour
             //add delay to Loading Scene; not immediate
             StartCoroutine(DelayLoadScene("GEnd1"));
             
+        }
+
+        else if (collision.CompareTag("Static_Obstacle"))
+        {
+            obstacleCheck = true;
         }
     }
 

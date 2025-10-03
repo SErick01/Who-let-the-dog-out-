@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Car
   - Cat
+  - Static_Obstacle
   layers:
   - Default
   - TransparentFX
