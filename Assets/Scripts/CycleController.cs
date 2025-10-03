@@ -6,15 +6,16 @@ public class CycleController : MonoBehaviour
 
     [SerializeField] private float speed = 2f;
     //[SerializeField] private float jumpHeight = 2f;
-    //[SerializeField] private float jumpSpeed = 2f;
+    [SerializeField] private float jumpSpeed = 2f;
     //[SerializeField] private float timeBTWNJump = 2f;
-   // [SerializeField] private float JumpLength = 1f;
+    // [SerializeField] private float JumpLength = 1f;
     //[SerializeField] private float jumpDistance = 2f;
     [SerializeField] private bool movingLeft = true;
     public static bool stopAllCars = false;
     private bool isJumping;
     Rigidbody2D rigidCycle;
-
+    [SerializeField] private float velocityMagMax = 50f;
+    Vector3 direction;
 
     private float screenBoundary;
 
@@ -23,15 +24,14 @@ public class CycleController : MonoBehaviour
     {
         screenBoundary = Camera.main.orthographicSize * Camera.main.aspect;
         stopAllCars = false;
-        Rigidbody2D  rigidCycle = GetComponent<Rigidbody2D >();
+        rigidCycle = GetComponent<Rigidbody2D>();
 
-       // StartCoroutine(CycleJump());
+        // StartCoroutine(CycleJump());
+        GetDirection();
     }
 
-    // Update is called once per frame
-    void Update()
+    void GetDirection()
     {
-        Vector3 direction;
         if (movingLeft)
         {
             direction = Vector3.left;
@@ -40,24 +40,67 @@ public class CycleController : MonoBehaviour
         {
             direction = Vector3.right;
         }
+    }
+
+    /// <summary>
+    /// Process physics - Runs based on Physics engine. Same for every player. 
+    /// </summary>
+    private void FixedUpdate()
+    {
+        //Add directional force to motorcycle
+        rigidCycle.AddForce(direction * speed * Time.fixedDeltaTime);
+
+        //we can learn about the velocity/magnitude of the rigidbody
+        Debug.Log("Motorcycle velocity magnitude = " + rigidCycle.linearVelocity.magnitude);
+        //Smooth clamp to velocity. 
+        if(rigidCycle.linearVelocity.magnitude >  velocityMagMax)
+        {
+            rigidCycle.linearVelocity = Vector2.MoveTowards(rigidCycle.linearVelocity, Vector2.zero, 5* Time.fixedDeltaTime);   
+        }
+    }
+
+    /// <summary>
+    /// Runs every frame - dependent on the Player's machine
+    /// </summary>
+    void Update()
+    {
         if (!stopAllCars)
         {
             //move car
-            transform.Translate(direction * speed * Time.deltaTime);
+            //transform.Translate(direction * speed * Time.deltaTime);
 
-            //after hit screen boundary; "respawn/ move back"
-            if (movingLeft && transform.position.x < -screenBoundary)
-            {
-                transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
-            }
-            else if (!movingLeft && transform.position.x > screenBoundary)
-            {
-                transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
-            }
+            CheckBounds();
         }
 
+    }
 
 
+    /// <summary>
+    /// This can be called by hitting any kind of trigger - jump ramps for example. 
+    /// </summary>
+    public void TriggerJump()
+    {
+        rigidCycle.AddRelativeForceY(jumpSpeed, ForceMode2D.Force); 
+    }
+
+    void CheckBounds()
+    {
+        //after hit screen boundary; "respawn/ move back"
+        if (movingLeft && transform.position.x < -screenBoundary)
+        {
+            transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
+            ResetVelocity();
+        }
+        else if (!movingLeft && transform.position.x > screenBoundary)
+        {
+            transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
+            ResetVelocity();
+        }
+    }
+
+    void ResetVelocity()
+    {
+        rigidCycle.linearVelocity = Vector2.zero;
     }
 
   // private IEnumerator CycleJump()
