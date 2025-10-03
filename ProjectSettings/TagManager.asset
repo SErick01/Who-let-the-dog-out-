@@ -15,7 +15,7 @@ TagManager:
   - UI
   - Animals
   - Obstacles
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,11 +40,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2976441507
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Background Sprites
     uniqueID: 1094663177

@@ -6,17 +6,24 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class LoadScene : MonoBehaviour
+public class LoadScene : NonInstantiatingSingleton<LoadScene>
 {
-    private void Awake()
+    protected override void OnAwake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        base.OnAwake();
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    protected override LoadScene GetInstance()
+    {
+        return this;
     }
 
     /// <summary>
     /// Restarts current scene. 
     /// </summary>
-    public static void RestartScene()
+    public void RestartScene()
     {
         int index = SceneManager.GetActiveScene().buildIndex;
         LoadSceneByIndex(index);
@@ -25,7 +32,7 @@ public class LoadScene : MonoBehaviour
     /// <summary>
     /// Works if start scene is 0. 
     /// </summary>
-    public static void ReloadToStartScene()
+    public void ReloadToStartScene()
     {
         LoadSceneByIndex(0);
     }
@@ -34,7 +41,7 @@ public class LoadScene : MonoBehaviour
     /// Loads a scene by its build name. 
     /// </summary>
     /// <param name="sceneName"></param>
-    public static void LoadSceneByName(string sceneName)
+    public void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
@@ -44,7 +51,7 @@ public class LoadScene : MonoBehaviour
     /// Loads a scene by its build index. 
     /// </summary>
     /// <param name="index"></param>
-    public static void LoadSceneByIndex(int index)
+    public void LoadSceneByIndex(int index)
     {
         SceneManager.LoadScene(index);
     }
@@ -52,10 +59,10 @@ public class LoadScene : MonoBehaviour
     /// <summary>
     /// Loads next scene in build order. If it exists. 
     /// </summary>
-    public static void LoadNextScene()
+    public void LoadNextScene()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;
-        if (SceneManager.GetSceneAt(index) != null)
+        if (SceneManager.GetSceneByBuildIndex(index) != null)
         {
             LoadSceneByIndex(index);
         }
@@ -64,10 +71,27 @@ public class LoadScene : MonoBehaviour
     /// <summary>
     /// Quits progam. 
     /// </summary>
-    public static void QuitGame()
+    public void QuitGame()
     {
         Application.Quit();
     }
+
+    public void WaitToLoadNextScene(float time)
+    {
+        SetWaitForAction(time, () =>
+        {
+            LoadNextScene();
+        });
+    }
+
+    public void WaitToLoadIndex(float time, int index)
+    {
+        SetWaitForAction(time, () =>
+        {
+            LoadSceneByIndex(index);
+        });
+    }
+
 
     public void SetWaitForAction(float time, Action action)
     {
@@ -80,4 +104,5 @@ public class LoadScene : MonoBehaviour
 
         action?.Invoke();
     }
+
 }

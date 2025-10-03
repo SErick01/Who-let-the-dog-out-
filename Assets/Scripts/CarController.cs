@@ -12,6 +12,7 @@ public class CarController : MonoBehaviour
     void Start()
     {
         screenBoundary = Camera.main.orthographicSize * Camera.main.aspect;
+        stopAllCars = false;
     }
 
     // Update is called once per frame
