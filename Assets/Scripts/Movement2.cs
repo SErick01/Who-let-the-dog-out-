@@ -23,6 +23,7 @@ public class Movement2 : MonoBehaviour
         collisions.winGame = false;
         collisions.obstacleCheck = false;
         revertMoveRegister.Clear();
+        revertMoveRegister.Push(Vector2.down);
     }
 
     // Update is called once per frame

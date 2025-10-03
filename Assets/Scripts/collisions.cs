@@ -50,6 +50,10 @@ public class collisions : MonoBehaviour
         {
             obstacleCheck = true;
         }
+        else if (collision.CompareTag("Ramp"))
+        {
+            obstacleCheck = true;
+        }
     }
 
     IEnumerator DelayLoadScene(string sceneName)
