@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5428265775574966440}
   - component: {fileID: 3041057871211321642}
   m_Layer: 7
-  m_Name: motogirl1_0
+  m_Name: monstahtwuck
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 7367988656828951004, guid: de0287b2f8c2c7c4bb545068f82e7f46, type: 3}
+  m_Sprite: {fileID: 4801602158748950267, guid: b984e3987b8d399449f7875656f7e088, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ Animator:
   m_GameObject: {fileID: 313110801119626313}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69baa679903d1bf47bec0ff7cdaa52eb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 71bade2caa61b264a9e7e1fcf7092ba8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a718354c99f173d40acae6faae1bbe03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
-  jumpSpeed: 100
+  speed: 300
+  jumpSpeed: 200
   movingLeft: 1
-  velocityMagMax: 50
+  velocityMagMax: 75
 --- !u!61 &3041057871211321642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.17, y: -0.9}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -201,7 +201,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.85, y: 2.92}
+  m_Size: {x: 8, y: 5}
   m_EdgeRadius: 0
 --- !u!1 &4037903742260801894
 GameObject:
