@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro5.unity
     guid: c9a1f8e5eed15ab488e2e4cc050f276f
   - enabled: 1
-    path: Assets/Scenes/Map.unity
+    path: Assets/Scenes/Level_1.unity
     guid: 1620b8041e889fa4e8faf89e5469834e
   - enabled: 1
     path: Assets/Scenes/GEnd1.unity
