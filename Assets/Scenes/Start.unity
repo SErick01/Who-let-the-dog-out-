@@ -765,7 +765,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 73042399
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 5
   m_Sprite: {fileID: 7204109203736516883, guid: 16153f0d256994c429dd5d8d1dc3b7b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2943,6 +2943,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundtrack: {fileID: 1179036868}
   gameOver: {fileID: 419128119}
+  dog_CRASH: {fileID: 0}
+  victory: {fileID: 0}
+  scenedelay: 9
 --- !u!61 &1071613009
 BoxCollider2D:
   m_ObjectHideFlags: 0
