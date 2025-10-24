@@ -7,6 +7,8 @@ TagManager:
   - Car
   - Cat
   - Static_Obstacle
+  - Ramp
+  - Shelter
   layers:
   - Default
   - TransparentFX
