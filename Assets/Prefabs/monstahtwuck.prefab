@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a718354c99f173d40acae6faae1bbe03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
-  jumpSpeed: 200
+  speed: 600
+  jumpSpeed: 300
   movingLeft: 1
   velocityMagMax: 75
 --- !u!61 &3041057871211321642
