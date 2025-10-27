@@ -54,6 +54,10 @@ public class collisions : MonoBehaviour
         {
             obstacleCheck = true;
         }
+        else if (collision.CompareTag("Shelter"))
+        {
+            obstacleCheck = false;
+        }
     }
 
     IEnumerator DelayLoadScene(string sceneName)
