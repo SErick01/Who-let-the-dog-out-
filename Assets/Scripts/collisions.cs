@@ -1,11 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using System;
+using System.Threading.Tasks;
 
 public class collisions : MonoBehaviour
 {
     public static bool winGame = false;
     public static bool GameOver = false;
     public static bool obstacleCheck = false;
+    public static bool shelterCheck = false;
 
     private Animator animator;
     public AudioSource soundtrack;
@@ -23,7 +26,7 @@ public class collisions : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Car"))
+        if (collision.CompareTag("Car") & shelterCheck == false)
         {
             animator.SetTrigger("CrashTrigger");
             GameOver = true;
@@ -56,8 +59,32 @@ public class collisions : MonoBehaviour
         }
         else if (collision.CompareTag("Shelter"))
         {
-            obstacleCheck = false;
+            shelterCheck = true;
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        
+        if (collision.CompareTag("Shelter"))
+        {
+            obstacleCheck = false;
+            shelterCheck = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Shelter")) {
+            shelterCheck = false;
+        }
+    }
+    private static async void ShelterLoop(Collider2D collision)
+    {
+                Debug.Log(shelterCheck);
+                await Task.Delay(3000);
+                shelterCheck = false;
+                Debug.Log(shelterCheck);
     }
 
     IEnumerator DelayLoadScene(string sceneName)
