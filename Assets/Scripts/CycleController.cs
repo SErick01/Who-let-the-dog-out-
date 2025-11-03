@@ -51,7 +51,7 @@ public class CycleController : MonoBehaviour
         rigidCycle.AddForce(direction * speed * Time.fixedDeltaTime);
 
         //we can learn about the velocity/magnitude of the rigidbody
-        Debug.Log("Motorcycle velocity magnitude = " + rigidCycle.linearVelocity.magnitude);
+       // Debug.Log("Motorcycle velocity magnitude = " + rigidCycle.linearVelocity.magnitude);
         //Smooth clamp to velocity. 
         if(rigidCycle.linearVelocity.magnitude >  velocityMagMax)
         {

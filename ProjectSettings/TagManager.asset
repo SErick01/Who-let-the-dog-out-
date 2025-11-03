@@ -19,7 +19,7 @@ TagManager:
   - Animals
   - Obstacles
   - Ground
-  - 
+  - Shelter
   - 
   - 
   - 
@@ -54,6 +54,9 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 73042399
+    locked: 0
+  - name: Shelter
+    uniqueID: 2297542157
     locked: 0
   m_RenderingLayers:
   - Default
