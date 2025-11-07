@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: c5aa2e1464fd06743ae2147037bdbe2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3126680646310667236
+    second: WhenItTrainsItPours1.1_0
+  - first:
+      213: -266203839879384551
+    second: WhenItTrainsItPours1.1_1
+  - first:
+      213: -2022183152224805344
+    second: WhenItTrainsItPours1.1_2
+  - first:
+      213: 4714748601121926725
+    second: WhenItTrainsItPours1.1_3
+  - first:
+      213: 4683083368002012496
+    second: WhenItTrainsItPours1.1_4
+  - first:
+      213: -1056468573941398811
+    second: WhenItTrainsItPours1.1_5
+  - first:
+      213: 7119628736611582544
+    second: WhenItTrainsItPours1.1_6
+  - first:
+      213: 8348408069069858807
+    second: WhenItTrainsItPours1.1_7
+  - first:
+      213: -5263995587806943858
+    second: WhenItTrainsItPours1.1_8
+  - first:
+      213: 8084126594041566064
+    second: WhenItTrainsItPours1.1_9
+  - first:
+      213: -8476916589130066007
+    second: WhenItTrainsItPours1.1_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 187
+        width: 322
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3af616b73346b20800000000000000
+      internalID: 3126680646310667236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 155
+        width: 157
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912f42e94014e4cf0800000000000000
+      internalID: -266203839879384551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 107
+        width: 23
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e5cd41323cfe3e0800000000000000
+      internalID: -2022183152224805344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 107
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e64277fd62e6140800000000000000
+      internalID: 4714748601121926725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 40
+        width: 26
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055cc4bd287adf040800000000000000
+      internalID: 4683083368002012496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 43
+        width: 26
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e20cdded6ba651f0800000000000000
+      internalID: -1056468573941398811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05285625d900ec260800000000000000
+      internalID: 7119628736611582544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 107
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7e9e438e08bd370800000000000000
+      internalID: 8348408069069858807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 107
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e852b8917e782f6b0800000000000000
+      internalID: -5263995587806943858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 43
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073d2254e46903070800000000000000
+      internalID: 8084126594041566064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhenItTrainsItPours1.1_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 43
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7594a5641fb5a80800000000000000
+      internalID: -8476916589130066007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WhenItTrainsItPours1.1_0: 3126680646310667236
+      WhenItTrainsItPours1.1_1: -266203839879384551
+      WhenItTrainsItPours1.1_10: -8476916589130066007
+      WhenItTrainsItPours1.1_2: -2022183152224805344
+      WhenItTrainsItPours1.1_3: 4714748601121926725
+      WhenItTrainsItPours1.1_4: 4683083368002012496
+      WhenItTrainsItPours1.1_5: -1056468573941398811
+      WhenItTrainsItPours1.1_6: 7119628736611582544
+      WhenItTrainsItPours1.1_7: 8348408069069858807
+      WhenItTrainsItPours1.1_8: -5263995587806943858
+      WhenItTrainsItPours1.1_9: 8084126594041566064
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
