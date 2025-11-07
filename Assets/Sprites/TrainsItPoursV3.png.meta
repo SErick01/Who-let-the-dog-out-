@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c363815350227154b85e41cf6c739122
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3774657587270592346
+    second: TrainsItPoursV3_0
+  - first:
+      213: -845905623937767241
+    second: TrainsItPoursV3_1
+  - first:
+      213: 3304794868268864908
+    second: TrainsItPoursV3_2
+  - first:
+      213: 5001860848727938514
+    second: TrainsItPoursV3_3
+  - first:
+      213: 3519880952724065848
+    second: TrainsItPoursV3_4
+  - first:
+      213: -6701619223566550364
+    second: TrainsItPoursV3_5
+  - first:
+      213: -2921064959624298763
+    second: TrainsItPoursV3_6
+  - first:
+      213: -151782340709245423
+    second: TrainsItPoursV3_7
+  - first:
+      213: 8284631171906234353
+    second: TrainsItPoursV3_8
+  - first:
+      213: 7907040251018738134
+    second: TrainsItPoursV3_9
+  - first:
+      213: -4666170209149630864
+    second: TrainsItPoursV3_10
+  - first:
+      213: 5242938672157862971
+    second: TrainsItPoursV3_11
+  - first:
+      213: 7903322970342202579
+    second: TrainsItPoursV3_12
+  - first:
+      213: 1222124370711055137
+    second: TrainsItPoursV3_13
+  - first:
+      213: -4301931689100198785
+    second: TrainsItPoursV3_14
+  - first:
+      213: -1669807400784092512
+    second: TrainsItPoursV3_15
+  - first:
+      213: -2559991360706808367
+    second: TrainsItPoursV3_16
+  - first:
+      213: -3090986884428905600
+    second: TrainsItPoursV3_17
+  - first:
+      213: -1837767556807840605
+    second: TrainsItPoursV3_18
+  - first:
+      213: -3840123764415734683
+    second: TrainsItPoursV3_19
+  - first:
+      213: -5174445876031054541
+    second: TrainsItPoursV3_20
+  - first:
+      213: 8232271246155255308
+    second: TrainsItPoursV3_21
+  - first:
+      213: -8394889948190557872
+    second: TrainsItPoursV3_22
+  - first:
+      213: -1180843084410423784
+    second: TrainsItPoursV3_23
+  - first:
+      213: -5829496256269711084
+    second: TrainsItPoursV3_24
+  - first:
+      213: 3127145959826598166
+    second: TrainsItPoursV3_25
+  - first:
+      213: -5812052700905584932
+    second: TrainsItPoursV3_26
+  - first:
+      213: 2401411400953914314
+    second: TrainsItPoursV3_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainsItPoursV3_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 260
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a572ffd9317426430800000000000000
+      internalID: 3774657587270592346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 260
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b82fab115db244f0800000000000000
+      internalID: -845905623937767241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 260
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8513b25c6dfcdd20800000000000000
+      internalID: 3304794868268864908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5dc50e0fd2a6540800000000000000
+      internalID: 5001860848727938514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 223
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e08cec31129d030800000000000000
+      internalID: 3519880952724065848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 222
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaf267a2d01ff2a0800000000000000
+      internalID: -6701619223566550364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 223
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feb0cb45ea4677d0800000000000000
+      internalID: -2921064959624298763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e19dae3c2c4edf0800000000000000
+      internalID: -151782340709245423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 186
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f76990382ce8f270800000000000000
+      internalID: 8284631171906234353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 185
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9ffaa07337bbd60800000000000000
+      internalID: 7907040251018738134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 186
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076402ecaee6e3fb0800000000000000
+      internalID: -4666170209149630864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 185
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ca02da1f8a2c840800000000000000
+      internalID: 5242938672157862971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 154
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc9e603e5e3ead60800000000000000
+      internalID: 7903322970342202579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 148
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b849bd3abd5f010800000000000000
+      internalID: 1222124370711055137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 107
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cbf2fdbe77c44c0800000000000000
+      internalID: -4301931689100198785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 107
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a222f81407a3d8e0800000000000000
+      internalID: -1669807400784092512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 103
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5700dbb65197cd0800000000000000
+      internalID: -2559991360706808367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 103
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083493c2ecb9a15d0800000000000000
+      internalID: -3090986884428905600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 115
+        width: 83
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac2bbcd420fe76e0800000000000000
+      internalID: -1837767556807840605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 113
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cd67838c325bac0800000000000000
+      internalID: -3840123764415734683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 80
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d1fa124eca038b0800000000000000
+      internalID: -5174445876031054541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 72
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e0fb9f417ee3270800000000000000
+      internalID: 8232271246155255308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059ba95f11c5f7b80800000000000000
+      internalID: -8394889948190557872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 41
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8167d3a987dcc9fe0800000000000000
+      internalID: -1180843084410423784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_24
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 24
+        width: 28
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41903997a08791fa0800000000000000
+      internalID: -5829496256269711084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 27
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6192340aeaad56b20800000000000000
+      internalID: 3127145959826598166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 46
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd64ca2bcd0775fa0800000000000000
+      internalID: -5812052700905584932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainsItPoursV3_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac36e6922f6835120800000000000000
+      internalID: 2401411400953914314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TrainsItPoursV3_0: 3774657587270592346
+      TrainsItPoursV3_1: -845905623937767241
+      TrainsItPoursV3_10: -4666170209149630864
+      TrainsItPoursV3_11: 5242938672157862971
+      TrainsItPoursV3_12: 7903322970342202579
+      TrainsItPoursV3_13: 1222124370711055137
+      TrainsItPoursV3_14: -4301931689100198785
+      TrainsItPoursV3_15: -1669807400784092512
+      TrainsItPoursV3_16: -2559991360706808367
+      TrainsItPoursV3_17: -3090986884428905600
+      TrainsItPoursV3_18: -1837767556807840605
+      TrainsItPoursV3_19: -3840123764415734683
+      TrainsItPoursV3_2: 3304794868268864908
+      TrainsItPoursV3_20: -5174445876031054541
+      TrainsItPoursV3_21: 8232271246155255308
+      TrainsItPoursV3_22: -8394889948190557872
+      TrainsItPoursV3_23: -1180843084410423784
+      TrainsItPoursV3_24: -5829496256269711084
+      TrainsItPoursV3_25: 3127145959826598166
+      TrainsItPoursV3_26: -5812052700905584932
+      TrainsItPoursV3_27: 2401411400953914314
+      TrainsItPoursV3_3: 5001860848727938514
+      TrainsItPoursV3_4: 3519880952724065848
+      TrainsItPoursV3_5: -6701619223566550364
+      TrainsItPoursV3_6: -2921064959624298763
+      TrainsItPoursV3_7: -151782340709245423
+      TrainsItPoursV3_8: 8284631171906234353
+      TrainsItPoursV3_9: 7907040251018738134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
