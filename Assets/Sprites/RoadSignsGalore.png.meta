@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 2464f474541c1cf4f96355350362fbae
+guid: de82d788b329289449bddafc5e745454
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4711334574686464648
-    second: NewCat_0
+      213: -2782591108319371115
+    second: RoadSignsGalore_0
   - first:
-      213: -7278339646428308398
-    second: NewCat_1
+      213: 1291401633591006256
+    second: RoadSignsGalore_1
   - first:
-      213: 5243771941145240145
-    second: NewCat_2
+      213: 7571218309907595840
+    second: RoadSignsGalore_2
   - first:
-      213: -2067841229301748230
-    second: NewCat_3
+      213: -1177230719583530991
+    second: RoadSignsGalore_3
   - first:
-      213: 7932054730681609635
-    second: NewCat_4
+      213: -3938083443643615009
+    second: RoadSignsGalore_4
   - first:
-      213: -3564144417873509348
-    second: NewCat_5
+      213: -5749301681693340243
+    second: RoadSignsGalore_5
   - first:
-      213: -6271848440514194626
-    second: NewCat_6
+      213: -5608102567979901084
+    second: RoadSignsGalore_6
   - first:
-      213: -3632506216996023763
-    second: NewCat_7
-  - first:
-      213: 8499282948582893025
-    second: NewCat_8
+      213: -2696423094136540690
+    second: RoadSignsGalore_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NewCat_0
+      name: RoadSignsGalore_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
-        width: 256
-        height: 256
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8751cc18a2afd9eb0800000000000000
-      internalID: -4711334574686464648
+      spriteID: 590a67931204269d0800000000000000
+      internalID: -2782591108319371115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_1
+      name: RoadSignsGalore_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 192
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25c9ff367a42efa90800000000000000
-      internalID: -7278339646428308398
+      spriteID: 0341d8091fafbe110800000000000000
+      internalID: 1291401633591006256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_2
+      name: RoadSignsGalore_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 384
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1526f1b3cce95c840800000000000000
-      internalID: 5243771941145240145
+      spriteID: 042c9f650fe521960800000000000000
+      internalID: 7571218309907595840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_3
+      name: RoadSignsGalore_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 256
-        height: 256
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afdef8b9b5d8d43e0800000000000000
-      internalID: -2067841229301748230
+      spriteID: 110db84d5e2a9afe0800000000000000
+      internalID: -1177230719583530991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_4
+      name: RoadSignsGalore_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 192
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3adeb3170c1541e60800000000000000
-      internalID: 7932054730681609635
+      spriteID: fd876cd09fd1959c0800000000000000
+      internalID: -3938083443643615009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_5
+      name: RoadSignsGalore_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 384
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c14457c198d998ec0800000000000000
-      internalID: -3564144417873509348
+      spriteID: dadcc14e4906630b0800000000000000
+      internalID: -5749301681693340243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_6
+      name: RoadSignsGalore_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e335012b21be5f8a0800000000000000
-      internalID: -6271848440514194626
+      spriteID: 46f1a9b6d640c22b0800000000000000
+      internalID: -5608102567979901084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NewCat_7
+      name: RoadSignsGalore_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 0
-        width: 256
-        height: 256
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,30 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d22dd8b67deb69dc0800000000000000
-      internalID: -3632506216996023763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewCat_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e561d38fc483f570800000000000000
-      internalID: 8499282948582893025
+      spriteID: ee1f4dd6b71649ad0800000000000000
+      internalID: -2696423094136540690
       vertices: []
       indices: 
       edges: []
@@ -325,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 527832abd63aa6e4c84ed655904348d7
+    spriteID: 1484d8c6cef498e41a6e5c68f7829aab
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NewCat_0: -4711334574686464648
-      NewCat_1: -7278339646428308398
-      NewCat_2: 5243771941145240145
-      NewCat_3: -2067841229301748230
-      NewCat_4: 7932054730681609635
-      NewCat_5: -3564144417873509348
-      NewCat_6: -6271848440514194626
-      NewCat_7: -3632506216996023763
-      NewCat_8: 8499282948582893025
+      RoadSignsGalore_0: -2782591108319371115
+      RoadSignsGalore_1: 1291401633591006256
+      RoadSignsGalore_2: 7571218309907595840
+      RoadSignsGalore_3: -1177230719583530991
+      RoadSignsGalore_4: -3938083443643615009
+      RoadSignsGalore_5: -5749301681693340243
+      RoadSignsGalore_6: -5608102567979901084
+      RoadSignsGalore_7: -2696423094136540690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

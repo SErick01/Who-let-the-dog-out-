@@ -121,18 +121,18 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -156,7 +156,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,10 +184,10 @@ TextureImporter:
       name: TrainsItPoursV3_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 260
-        width: 67
-        height: 35
+        x: 11
+        y: 261
+        width: 65
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: TrainsItPoursV3_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 260
-        width: 68
-        height: 35
+        x: 91
+        y: 261
+        width: 66
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: TrainsItPoursV3_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 260
-        width: 69
-        height: 34
+        x: 165
+        y: 261
+        width: 67
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: TrainsItPoursV3_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 260
-        width: 68
-        height: 34
+        x: 241
+        y: 261
+        width: 66
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: TrainsItPoursV3_4
       rect:
         serializedVersion: 2
-        x: 11
-        y: 223
-        width: 66
-        height: 33
+        x: 12
+        y: 224
+        width: 64
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: TrainsItPoursV3_5
       rect:
         serializedVersion: 2
-        x: 90
-        y: 222
-        width: 68
-        height: 35
+        x: 91
+        y: 223
+        width: 66
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: TrainsItPoursV3_6
       rect:
         serializedVersion: 2
-        x: 164
-        y: 223
-        width: 67
-        height: 35
+        x: 165
+        y: 224
+        width: 65
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: TrainsItPoursV3_7
       rect:
         serializedVersion: 2
-        x: 240
-        y: 224
-        width: 68
-        height: 34
+        x: 241
+        y: 225
+        width: 66
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: TrainsItPoursV3_8
       rect:
         serializedVersion: 2
-        x: 15
-        y: 186
-        width: 67
-        height: 34
+        x: 16
+        y: 187
+        width: 65
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: TrainsItPoursV3_9
       rect:
         serializedVersion: 2
-        x: 90
-        y: 185
-        width: 68
-        height: 36
+        x: 91
+        y: 186
+        width: 66
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: TrainsItPoursV3_10
       rect:
         serializedVersion: 2
-        x: 164
-        y: 186
-        width: 67
-        height: 35
+        x: 165
+        y: 187
+        width: 65
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: TrainsItPoursV3_11
       rect:
         serializedVersion: 2
-        x: 240
-        y: 185
-        width: 68
-        height: 35
+        x: 241
+        y: 186
+        width: 66
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: TrainsItPoursV3_12
       rect:
         serializedVersion: 2
-        x: 19
-        y: 154
-        width: 79
-        height: 30
+        x: 20
+        y: 155
+        width: 77
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: TrainsItPoursV3_13
       rect:
         serializedVersion: 2
-        x: 112
-        y: 148
-        width: 66
-        height: 34
+        x: 113
+        y: 149
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: TrainsItPoursV3_14
       rect:
         serializedVersion: 2
-        x: 185
-        y: 107
-        width: 26
-        height: 68
+        x: 186
+        y: 108
+        width: 24
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: TrainsItPoursV3_15
       rect:
         serializedVersion: 2
-        x: 218
-        y: 107
-        width: 26
-        height: 68
+        x: 219
+        y: 108
+        width: 24
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: TrainsItPoursV3_16
       rect:
         serializedVersion: 2
-        x: 253
-        y: 103
-        width: 28
-        height: 68
+        x: 254
+        y: 104
+        width: 26
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: TrainsItPoursV3_17
       rect:
         serializedVersion: 2
-        x: 286
-        y: 103
-        width: 28
-        height: 69
+        x: 287
+        y: 104
+        width: 26
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: TrainsItPoursV3_18
       rect:
         serializedVersion: 2
-        x: 22
-        y: 115
-        width: 83
-        height: 30
+        x: 23
+        y: 116
+        width: 81
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: TrainsItPoursV3_19
       rect:
         serializedVersion: 2
-        x: 110
-        y: 113
-        width: 66
-        height: 34
+        x: 111
+        y: 114
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: TrainsItPoursV3_20
       rect:
         serializedVersion: 2
-        x: 11
-        y: 80
-        width: 40
-        height: 27
+        x: 12
+        y: 81
+        width: 38
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: TrainsItPoursV3_21
       rect:
         serializedVersion: 2
-        x: 111
-        y: 72
-        width: 68
-        height: 35
+        x: 112
+        y: 73
+        width: 66
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +668,10 @@ TextureImporter:
       name: TrainsItPoursV3_22
       rect:
         serializedVersion: 2
-        x: 185
-        y: 41
-        width: 26
-        height: 65
+        x: 186
+        y: 42
+        width: 24
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +690,10 @@ TextureImporter:
       name: TrainsItPoursV3_23
       rect:
         serializedVersion: 2
-        x: 217
-        y: 41
-        width: 27
-        height: 65
+        x: 218
+        y: 42
+        width: 25
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: TrainsItPoursV3_24
       rect:
         serializedVersion: 2
-        x: 253
-        y: 24
-        width: 28
-        height: 71
+        x: 254
+        y: 25
+        width: 26
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +734,10 @@ TextureImporter:
       name: TrainsItPoursV3_25
       rect:
         serializedVersion: 2
-        x: 286
-        y: 27
-        width: 28
-        height: 68
+        x: 287
+        y: 28
+        width: 26
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: TrainsItPoursV3_26
       rect:
         serializedVersion: 2
-        x: 11
-        y: 46
-        width: 35
-        height: 32
+        x: 12
+        y: 47
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: TrainsItPoursV3_27
       rect:
         serializedVersion: 2
-        x: 11
+        x: 12
         y: 0
-        width: 29
-        height: 42
+        width: 27
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,7 +800,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1fb3ae3406eb32c4b97856ebd97ee8c4
     internalID: 0
     vertices: []
     indices: 
