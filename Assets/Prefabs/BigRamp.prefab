@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3514884200197543758}
   - component: {fileID: -6368128298051277575}
   m_Layer: 3
-  m_Name: ramp1_0 (2)
+  m_Name: BigRamp
   m_TagString: Ramp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.99, y: -2.41, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}

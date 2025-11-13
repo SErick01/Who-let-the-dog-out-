@@ -28,6 +28,7 @@ public class collisions : MonoBehaviour
     {
         if (collision.CompareTag("Car") & shelterCheck == false)
         {
+            Debug.Log("shelterCheck on car collision trigger: " + shelterCheck);
             animator.SetTrigger("CrashTrigger");
             GameOver = true;
             soundtrack.Stop();
@@ -60,6 +61,7 @@ public class collisions : MonoBehaviour
         else if (collision.CompareTag("Shelter"))
         {
             shelterCheck = true;
+            Debug.Log("shelterCheck: " + shelterCheck);
         }
     }
 
@@ -68,23 +70,25 @@ public class collisions : MonoBehaviour
         
         if (collision.CompareTag("Shelter"))
         {
-            obstacleCheck = false;
+            if (obstacleCheck != false)
+            {
+                obstacleCheck = false;
+            }
+            if (shelterCheck != true)
+            {
             shelterCheck = true;
+            Debug.Log("shelterCheck: " + shelterCheck);
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private async void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Shelter")) {
+            await Task.Delay(2000);
             shelterCheck = false;
+            Debug.Log("shelterCheck: " + shelterCheck);
         }
-    }
-    private static async void ShelterLoop(Collider2D collision)
-    {
-                Debug.Log(shelterCheck);
-                await Task.Delay(3000);
-                shelterCheck = false;
-                Debug.Log(shelterCheck);
     }
 
     IEnumerator DelayLoadScene(string sceneName)
