@@ -38,7 +38,7 @@ public class Movement2 : MonoBehaviour
             {
                 Move(Vector2.up);
                 revertMoveRegister.Push(Vector2.down);
-                Debug.Log(revertMoveRegister.Peek());
+                //Debug.Log(revertMoveRegister.Peek());
                 if (animator != null)
                 {
                     animator.SetTrigger("MoveTrigger"); // Ensure this trigger exists in your Animator
@@ -49,7 +49,7 @@ public class Movement2 : MonoBehaviour
 
                 Move(Vector2.down);
                 revertMoveRegister.Push(Vector2.up);
-                Debug.Log(revertMoveRegister.Peek());
+                //Debug.Log(revertMoveRegister.Peek());
                 if (animator != null)
                 {
                     animator.SetTrigger("MoveTrigger"); // Ensure this trigger exists in your Animator
@@ -59,7 +59,7 @@ public class Movement2 : MonoBehaviour
             {
                 Move(Vector2.left);
                 revertMoveRegister.Push(Vector2.right);
-                Debug.Log(revertMoveRegister.Peek());
+                //Debug.Log(revertMoveRegister.Peek());
                 if (animator != null)
                 {
                     animator.SetTrigger("MoveTrigger");
@@ -69,7 +69,7 @@ public class Movement2 : MonoBehaviour
             {
                 Move(Vector2.right);
                 revertMoveRegister.Push(Vector2.left);
-                Debug.Log(revertMoveRegister.Peek());
+                //Debug.Log(revertMoveRegister.Peek());
                 if (animator != null)
                 {
                     animator.SetTrigger("MoveTrigger");
