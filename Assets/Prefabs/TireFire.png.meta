@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +89,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,10 +118,10 @@ TextureImporter:
       name: TireFire_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 85
-        width: 12
-        height: 22
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: TireFire_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 106
-        width: 22
-        height: 21
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: TireFire_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 85
-        width: 12
-        height: 22
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,77 +180,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: TireFire_3
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 106
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c732b4481617b310800000000000000
-      internalID: 1420628500946237382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TireFire_4
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 21
-        width: 12
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 891bb853b479457f0800000000000000
-      internalID: -624708099020967528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TireFire_5
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 42
-        width: 30
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81d88228ebc85df60800000000000000
-      internalID: 8058501858104741144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4772e261fdf38b641a42cfcf6c435594
     internalID: 0
     vertices: []
     indices: 
@@ -263,9 +197,6 @@ TextureImporter:
       TireFire_0: -1769029271389445368
       TireFire_1: 3078903938904454469
       TireFire_2: -5380077843032478815
-      TireFire_3: 1420628500946237382
-      TireFire_4: -624708099020967528
-      TireFire_5: 8058501858104741144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
