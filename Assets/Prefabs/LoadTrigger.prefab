@@ -45,5 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadsNextScene: 1
-  sceneIndexToLoad: 0
+  sceneIndexToLoad: 6
   WaitTime: 3
+  skipped: 0

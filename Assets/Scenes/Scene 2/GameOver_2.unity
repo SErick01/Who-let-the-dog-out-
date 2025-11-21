@@ -443,6 +443,10 @@ PrefabInstance:
       propertyPath: loadsNextScene
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 698035653332136843, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
+      propertyPath: sceneIndexToLoad
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 745031956423575845, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
       propertyPath: m_Name
       value: LoadTrigger
