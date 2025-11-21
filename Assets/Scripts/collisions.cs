@@ -11,6 +11,7 @@ public class collisions : MonoBehaviour
     public static bool shelterCheck = false;
 
     private Animator animator;
+   // private BoxCollider2D obstacle_collider;
     public AudioSource soundtrack;
     public AudioSource gameOver;
     public AudioSource dog_CRASH;
@@ -24,6 +25,7 @@ public class collisions : MonoBehaviour
     void Start()
     {
         animator = GetComponentInParent<Animator>();
+       // obstacle_collider = GetComponentInParent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -63,6 +65,7 @@ public class collisions : MonoBehaviour
         else if (collision.CompareTag("Shelter"))
         {
             shelterCheck = true;
+         //   obstacle_collider.excludeLayers = new LayerMask { "Obstacles" };
             Debug.Log("shelterCheck: " + shelterCheck);
         }
         else if (collision.CompareTag("Lever"))
@@ -97,7 +100,7 @@ public class collisions : MonoBehaviour
     private async void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Shelter")) {
-            await Task.Delay(2000);
+            await Task.Delay(300);
             shelterCheck = false;
             Debug.Log("shelterCheck: " + shelterCheck);
         }
