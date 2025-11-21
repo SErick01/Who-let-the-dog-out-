@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using System;
 using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class collisions : MonoBehaviour
 {
@@ -19,7 +20,9 @@ public class collisions : MonoBehaviour
     public LeverController lever;
 
 
-    public float scenedelay = 9.0f; //delays next scene by n number of seconds
+    private float scenedelay = 4.0f; //delays next scene by n number of seconds
+    public string sceneName => SceneManager.GetActiveScene().name;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,7 +41,19 @@ public class collisions : MonoBehaviour
             dog_CRASH.Play();
 
             // add delay to Loading Scene
-            StartCoroutine(DelayLoadScene("BEnd"));
+            if (sceneName == "Level_1" || sceneName == "Level_1.2" || sceneName == "Level_1.3")
+            {
+                StartCoroutine(DelayLoadScene("GameOver_1"));
+            }
+            else if (sceneName == "Level_2" || sceneName == "Level_2.2" || sceneName == "Level_2.3")
+            {
+                StartCoroutine(DelayLoadScene("GameOver_2"));
+            }
+            else 
+            {
+                StartCoroutine(DelayLoadScene("GameOver_3"));
+            }
+
         }
         else if (collision.CompareTag("Cat"))
         {
@@ -48,8 +63,43 @@ public class collisions : MonoBehaviour
             victory.Play();
 
             //add delay to Loading Scene; not immediate
-            StartCoroutine(DelayLoadScene("GEnd1"));
-            
+            if (sceneName == "Level_1")
+            {
+                StartCoroutine(DelayLoadScene("Complete_1.1"));
+            }
+            else if (sceneName == "Level_1.2")
+            {
+                StartCoroutine(DelayLoadScene("Complete_1.2"));
+            }
+            else if (sceneName == "Level_1.3")
+            {
+                StartCoroutine(DelayLoadScene("Complete_1.3"));
+            }
+            else if (sceneName == "Level_2")
+            {
+                StartCoroutine(DelayLoadScene("Finish_2.1"));
+            }
+            else if (sceneName == "Level_2.2")
+            {
+                StartCoroutine(DelayLoadScene("Finish_2.2"));
+            }
+            else if (sceneName == "Level_2.3")
+            {
+                StartCoroutine(DelayLoadScene("Finish_2.3"));
+            }
+            else if (sceneName == "Level_3")
+            {
+                StartCoroutine(DelayLoadScene("Done_3.1"));
+            }
+            else if (sceneName == "Level_3.2")
+            {
+                StartCoroutine(DelayLoadScene("Done_3.2"));
+            }
+            else if (sceneName == "Level_3.3")
+            {
+                StartCoroutine(DelayLoadScene("Done_3.3"));
+            }
+
         }
 
         else if (collision.CompareTag("Static_Obstacle"))
@@ -105,8 +155,14 @@ public class collisions : MonoBehaviour
 
     IEnumerator DelayLoadScene(string sceneName)
     {
+        Debug.Log("Trying to load " +  sceneName);
         yield return new WaitForSeconds(scenedelay);
-        LoadScene.Instance.LoadSceneByName(sceneName);
+        if(LoadScene.Instance)
+            LoadScene.Instance.LoadSceneByName(sceneName);
+        else
+        {
+            Debug.LogError("You don't have a Load Scene component!");
+        }
     }
 
 }
