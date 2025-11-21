@@ -44,10 +44,15 @@ public class TrainEmitter : MonoBehaviour
         if (prefab == null || spawn == null) return;
 
         var go = Instantiate(prefab, spawn.position, Quaternion.identity);
-        float midX = (spawnFromLeft.position.x + spawnFromRight.position.x) * 0.5f;
-        bool spawnedOnLeft = spawn.position.x < midX;
-
         var mover = go.GetComponent<TrainMover>();
-        if (mover) mover.moveRight = spawnedOnLeft;
+        if (mover)
+        {
+//mover.moveRight = wantRightward;
+
+            if (debugLogs)
+            {
+                Debug.Log($"Spawned train at {spawn.name}, moving {(wantRightward ? "right" : "left")}");
+            }
+        }
     }
 }

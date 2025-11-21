@@ -2,18 +2,50 @@ using UnityEngine;
 
 public class TrainMover : MonoBehaviour
 {
-    [Tooltip("True = move to screen right. False = move to screen left.")]
-    public bool moveRight = true;
 
-    [Min(0f)] public float speed = 6f;
-    [Min(0f)] public float lifeSeconds = 20f;
+    [Tooltip("True = train moves left, False = train moves right.")]
+    [SerializeField] private bool movingLeft = false;
+
+    [Min(0f)][SerializeField] private float speed = 6f;
+
+    private float screenBoundary;
 
     void Start()
-    {if (lifeSeconds > 0f) Destroy(gameObject, lifeSeconds);}
+    {
+       
+        screenBoundary = Camera.main.orthographicSize * Camera.main.aspect*2;
+    }
 
     void Update()
     {
-        float dir = moveRight ? 1f : -1f;
-        transform.Translate(Vector3.right * dir * speed * Time.deltaTime, Space.World);
+        
+        Vector3 direction = movingLeft ? Vector3.left : Vector3.right;
+
+        
+        transform.Translate(direction * speed * Time.deltaTime);
+
+        
+        if (movingLeft && transform.position.x < -screenBoundary)
+        {
+            transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
+        }
+        else if (!movingLeft && transform.position.x > screenBoundary)
+        {
+            transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
+        }
+    }
+
+   
+    public void ReverseDirection()
+    {
+        movingLeft = !movingLeft;
+        Debug.Log("Train reversed! Now movingLeft = " + movingLeft);
+    }
+
+    // Called by lever
+    public void SpeedUp(float amount = 2f)
+    {
+        speed += amount;
+        Debug.Log("Train speed increased! Now speed = " + speed);
     }
 }

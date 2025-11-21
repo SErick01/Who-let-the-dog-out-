@@ -16,6 +16,8 @@ public class collisions : MonoBehaviour
     public AudioSource dog_CRASH;
     public AudioSource victory;
 
+    public LeverController lever;
+
 
     public float scenedelay = 9.0f; //delays next scene by n number of seconds
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,6 +65,16 @@ public class collisions : MonoBehaviour
             shelterCheck = true;
             Debug.Log("shelterCheck: " + shelterCheck);
         }
+        else if (collision.CompareTag("Lever"))
+        {
+            Debug.Log("Lever collision detected!");
+
+            if (lever != null)
+            {
+                
+                lever.ToggleLever();
+            }
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -98,3 +110,4 @@ public class collisions : MonoBehaviour
     }
 
 }
+
