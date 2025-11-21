@@ -1,3 +1,4 @@
+using UnityEditor.Rendering;
 using UnityEditor.VersionControl;
 using UnityEngine;
 
@@ -7,6 +8,8 @@ public class LeverController: MonoBehaviour
         [Header("Lever State")]
         public bool isRight = true;
         private bool playerInside = false;
+
+        [Min(0f)][SerializeField] private float speedUpVal = 6f;
 
     public enum LeverMode { Reverse, SpeedUp }
         [SerializeField] private LeverMode mode = LeverMode.Reverse; 
@@ -69,7 +72,7 @@ public class LeverController: MonoBehaviour
             }
                 else if (mode == LeverMode.SpeedUp)
                 {
-                    connectedTrain.SpeedUp(6f);
+                    connectedTrain.SpeedUp(speedUpVal);
                     Debug.Log($"Train Sped Up");
             }
         }

@@ -17218,8 +17218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRight: 1
-  mode: 0
-  connectedTrain: {fileID: 0}
+  mode: 1
+  connectedTrain: {fileID: 8951111020449380570}
   leverHandle: {fileID: 0}
   angleRight: 30
   angleLeft: -30
@@ -20732,6 +20732,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 16.169079, y: 1.729434}
   m_EdgeRadius: 0
+--- !u!114 &8951111020449380570 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2341706600803597265, guid: 6e150b322292b7041bba9cb7bc35b74c, type: 3}
+  m_PrefabInstance: {fileID: 6746957157697682667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951111020449380568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab280c0bdc0a0f8449ffd71892857219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrainMover
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
