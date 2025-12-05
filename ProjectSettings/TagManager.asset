@@ -9,6 +9,8 @@ TagManager:
   - Static_Obstacle
   - Ramp
   - Shelter
+  - Lever
+  - Train
   layers:
   - Default
   - TransparentFX
