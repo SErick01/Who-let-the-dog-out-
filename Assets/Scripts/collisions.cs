@@ -33,9 +33,9 @@ public class collisions : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Car") & shelterCheck == false)
+        if (collision.CompareTag("Car") || collision.CompareTag("Train") && shelterCheck == false)
         {
-            Debug.Log("shelterCheck on car collision trigger: " + shelterCheck);
+            Debug.Log("shelterCheck on car/train collision trigger: " + shelterCheck);
             animator.SetTrigger("CrashTrigger");
             GameOver = true;
             soundtrack.Stop();
@@ -169,4 +169,3 @@ public class collisions : MonoBehaviour
     }
 
 }
-

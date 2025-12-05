@@ -6,7 +6,7 @@ public class TrainMover : MonoBehaviour
     [Tooltip("True = train moves left, False = train moves right.")]
     [SerializeField] private bool movingLeft = false;
 
-    [Min(0f)][SerializeField] private float speed = 6f;
+    [Min(0f)][SerializeField] private float speed = 25f;
 
     private float screenBoundary;
 
@@ -34,7 +34,6 @@ public class TrainMover : MonoBehaviour
             transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
         }
     }
-
    
     public void ReverseDirection()
     {
@@ -42,7 +41,6 @@ public class TrainMover : MonoBehaviour
         Debug.Log("Train reversed! Now movingLeft = " + movingLeft);
     }
 
-    // Called by lever
     public void SpeedUp(float amount = 2f)
     {
         speed += amount;
