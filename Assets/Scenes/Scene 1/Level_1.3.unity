@@ -12726,6 +12726,7 @@ MonoBehaviour:
   dog_CRASH: {fileID: 1488206462}
   victory: {fileID: 1658611884}
   lever: {fileID: 0}
+  scenedelay: 7
 --- !u!61 &2000496318
 BoxCollider2D:
   m_ObjectHideFlags: 0
