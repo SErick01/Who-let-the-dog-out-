@@ -12,7 +12,9 @@ public class collisions : MonoBehaviour
     public static bool shelterCheck = false;
 
     private Animator animator;
-   // private BoxCollider2D obstacle_collider;
+    private BoxCollider2D obstacle_collider;
+    [SerializeField] private LayerMask obstaclesMask;
+    [SerializeField] public GameObject Parent;
     public AudioSource soundtrack;
     public AudioSource gameOver;
     public AudioSource dog_CRASH;
@@ -28,7 +30,7 @@ public class collisions : MonoBehaviour
     void Start()
     {
         animator = GetComponentInParent<Animator>();
-       // obstacle_collider = GetComponentInParent<BoxCollider2D>();
+        obstacle_collider = Parent.GetComponentInParent<BoxCollider2D>(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -115,7 +117,10 @@ public class collisions : MonoBehaviour
         else if (collision.CompareTag("Shelter"))
         {
             shelterCheck = true;
-         //   obstacle_collider.excludeLayers = new LayerMask { "Obstacles" };
+            Debug.Log("Peanut collider excluded collision layers: " + obstacle_collider.excludeLayers.value);
+            obstacle_collider.excludeLayers = obstaclesMask;
+            Debug.Log("Peanut collider excluded collision layers: " + obstacle_collider.excludeLayers.value);
+            Debug.Log("Obstacle mask applied?");
             Debug.Log("shelterCheck: " + shelterCheck);
         }
         else if (collision.CompareTag("Lever"))
@@ -153,6 +158,9 @@ public class collisions : MonoBehaviour
             await Task.Delay(300);
             shelterCheck = false;
             Debug.Log("shelterCheck: " + shelterCheck);
+            Debug.Log("Peanut collider excluded collision layers: " + obstacle_collider.excludeLayers.value);
+            obstacle_collider.excludeLayers = new LayerMask { };
+            Debug.Log("Peanut collider excluded collision layers: " + obstacle_collider.excludeLayers.value);
         }
     }
 
