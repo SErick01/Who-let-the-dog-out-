@@ -1,87 +1,97 @@
-//using UnityEditor.Rendering;
-//using UnityEditor.VersionControl;
+
 using UnityEngine;
 
 public class LeverController: MonoBehaviour 
 {
-
-        [Header("Lever State")]
-        public bool isRight = true;
-        private bool playerInside = false;
-
-        [Min(0f)][SerializeField] private float speedUpVal = 6f;
+    private bool isRight = true;
+    [Min(0f)] public float speedUpVal = 25f;
 
     public enum LeverMode { Reverse, SpeedUp }
-        [SerializeField] private LeverMode mode = LeverMode.Reverse; 
-        [SerializeField] private TrainMover connectedTrain; //assign train
+    public LeverMode mode = LeverMode.SpeedUp;
 
-        [Header("Animation")]
-        public Transform leverHandle; 
-        public float angleRight = 30f; 
-        public float angleLeft = -30f; 
-        public float animationSpeed = 5f;
+    [SerializeField] private TrainMover connectedTrain;
 
-        private Quaternion targetRotation;
+    [Header("Lever Sprites")]
+    public Sprite spriteUp;
+    public Sprite spriteRight;
+    public Sprite spriteLeft;
 
-        void Start()
+    private SpriteRenderer sr;
+    private bool playerInside = false;
+    private bool hasChosenSide = false;
+
+    void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        if (sr == null)
         {
-            UpdateLeverVisual();
+            Debug.LogWarning("LeverController: No SpriteRenderer found on this GameObject.");
         }
+    }
 
-        void Update()
-        {
-            if (leverHandle)
-            {
-                leverHandle.localRotation = Quaternion.Lerp(
-                    leverHandle.localRotation,
-                    targetRotation,
-                    Time.deltaTime * animationSpeed
-                );
-            }
-        }
+    void Start()
+    {
+        UpdateLeverVisual();
+    }
 
-        private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !playerInside)
         {
-            if (other.CompareTag("Player")&& !playerInside)
-            {
-                ToggleLever();
-                playerInside = true;
-            }
+            ToggleLever();
+            playerInside = true;
         }
+    }
 
-        private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) 
         {
-            if (other.CompareTag("Player"))
-            {
-                playerInside = false;
-            }
+            playerInside = false;
         }
+    }
 
     public void ToggleLever()
+    {
+        if (!hasChosenSide)
         {
+            hasChosenSide = true;
+            isRight = true;
+        } else {
             isRight = !isRight;
-            UpdateLeverVisual();
+        }
 
-            if (connectedTrain != null)
+        UpdateLeverVisual();
+
+        if (connectedTrain != null)
+        {
+            if (mode == LeverMode.Reverse)
             {
-                if (mode == LeverMode.Reverse)
-                {
-                    connectedTrain.ReverseDirection();
-                    Debug.Log($"Train Reversed");
-
+                connectedTrain.ReverseDirection();
+                Debug.Log("Train Reversed");
             }
-                else if (mode == LeverMode.SpeedUp)
-                {
-                    connectedTrain.SpeedUp(speedUpVal);
-                    Debug.Log($"Train Sped Up");
+            else if (mode == LeverMode.SpeedUp)
+            {
+                connectedTrain.SpeedUp(speedUpVal);
+                Debug.Log("Train Sped Up");
             }
         }
     }
 
-        private void UpdateLeverVisual()
-        {
-            float angle = isRight ? angleRight : angleLeft;
-            targetRotation = Quaternion.Euler(angle, 0f, 0f);
-        }
- }
+    private void UpdateLeverVisual()
+    {
+        if (sr == null) return;
 
+        if (!hasChosenSide)
+        {
+            if (spriteUp != null)
+            {
+                sr.sprite = spriteUp;
+            } else {
+                sr.sprite = spriteRight;
+            }
+        } else {
+            sr.sprite = isRight ? spriteRight : spriteLeft;
+        }
+    }
+}

@@ -42,9 +42,6 @@ public class CarController : MonoBehaviour
                 transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
             }
         }
-
-
-        
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
