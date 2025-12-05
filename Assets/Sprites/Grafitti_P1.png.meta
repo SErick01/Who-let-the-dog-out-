@@ -148,10 +148,10 @@ TextureImporter:
       name: Grafitti_P1_0
       rect:
         serializedVersion: 2
-        x: 521
-        y: 1061
-        width: 44
-        height: 44
+        x: 0
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: Grafitti_P1_1
       rect:
         serializedVersion: 2
-        x: 671
-        y: 1085
-        width: 20
-        height: 20
+        x: 384
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Grafitti_P1_2
       rect:
         serializedVersion: 2
-        x: 713
-        y: 1085
-        width: 20
-        height: 26
+        x: 768
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: Grafitti_P1_3
       rect:
         serializedVersion: 2
-        x: 779
-        y: 833
-        width: 373
-        height: 260
+        x: 0
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Grafitti_P1_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 851
-        width: 385
-        height: 224
+        x: 384
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: Grafitti_P1_5
       rect:
         serializedVersion: 2
-        x: 401
-        y: 1001
-        width: 26
-        height: 44
+        x: 768
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: Grafitti_P1_6
       rect:
         serializedVersion: 2
-        x: 413
-        y: 767
-        width: 350
-        height: 308
+        x: 0
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Grafitti_P1_7
       rect:
         serializedVersion: 2
-        x: 401
-        y: 785
-        width: 20
-        height: 20
+        x: 384
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +324,10 @@ TextureImporter:
       name: Grafitti_P1_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 647
-        width: 110
-        height: 68
+        x: 768
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,165 +342,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_9
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 509
-        width: 338
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc26c8e6169b1b880800000000000000
-      internalID: -8596886385555905845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_10
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 605
-        width: 62
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e91692ee7a97bf10800000000000000
-      internalID: 2285465205671860706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_11
-      rect:
-        serializedVersion: 2
-        x: 485
-        y: 0
-        width: 200
-        height: 727
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10bc11ccb0b12c090800000000000000
-      internalID: -8015814649283753215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_12
-      rect:
-        serializedVersion: 2
-        x: 869
-        y: 0
-        width: 200
-        height: 769
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd17ebb21134f1770800000000000000
-      internalID: 8583653155818861021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_13
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 491
-        width: 260
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca65f66d9b4020560800000000000000
-      internalID: 7278385143997224620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_14
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 473
-        width: 158
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15a44f15e02b79d50800000000000000
-      internalID: 6744054741584857681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grafitti_P1_15
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 0
-        width: 200
-        height: 385
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53bf7ad41df36e9f0800000000000000
-      internalID: -439593745438475467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 22ed57a0bbb492e4c9351f7310500210
     internalID: 0
     vertices: []
     indices: 
@@ -512,12 +358,6 @@ TextureImporter:
     nameFileIdTable:
       Grafitti_P1_0: 3864156355537999929
       Grafitti_P1_1: 1035504689060775365
-      Grafitti_P1_10: 2285465205671860706
-      Grafitti_P1_11: -8015814649283753215
-      Grafitti_P1_12: 8583653155818861021
-      Grafitti_P1_13: 7278385143997224620
-      Grafitti_P1_14: 6744054741584857681
-      Grafitti_P1_15: -439593745438475467
       Grafitti_P1_2: 6457146435248885206
       Grafitti_P1_3: -2551245068190302141
       Grafitti_P1_4: -7250461375146080424
@@ -525,7 +365,6 @@ TextureImporter:
       Grafitti_P1_6: -438866843548561787
       Grafitti_P1_7: 327972163105900638
       Grafitti_P1_8: -9004491966736660920
-      Grafitti_P1_9: -8596886385555905845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
