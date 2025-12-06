@@ -6,9 +6,15 @@ public class LeverController: MonoBehaviour
     private bool isRight = true;
     [Min(0f)] public float speedUpVal = 25f;
 
-    public enum LeverMode { Reverse, SpeedUp }
+    public enum LeverMode 
+    { 
+        Reverse, 
+        SpeedUp,
+        ObjectToggle, //Swaps object activity states. 
+    }
     public LeverMode mode = LeverMode.SpeedUp;
 
+    [Tooltip("Leave blank for Object Toggles")]
     [SerializeField] private TrainMover connectedTrain;
 
     [Header("Lever Sprites")]
@@ -19,6 +25,15 @@ public class LeverController: MonoBehaviour
     private SpriteRenderer sr;
     private bool playerInside = false;
     private bool hasChosenSide = false;
+
+    [Header("Object Toggles")]
+    [SerializeField]
+    private GameObject[] objectsToActivate;
+    [SerializeField]
+    private GameObject[] objectsToDeactivate;
+
+    [SerializeField]
+    private bool IsToggled; //starts false 
 
     void Awake()
     {
@@ -53,6 +68,7 @@ public class LeverController: MonoBehaviour
 
     public void ToggleLever()
     {
+        //For lever Visuals
         if (!hasChosenSide)
         {
             hasChosenSide = true;
@@ -60,7 +76,6 @@ public class LeverController: MonoBehaviour
         } else {
             isRight = !isRight;
         }
-
         UpdateLeverVisual();
 
         if (connectedTrain != null)
@@ -75,6 +90,24 @@ public class LeverController: MonoBehaviour
                 connectedTrain.SpeedUp(speedUpVal);
                 Debug.Log("Train Sped Up");
             }
+        }
+        else
+        {
+            //Turn on and off given objects. 
+            IsToggled = !IsToggled;
+            if (mode == LeverMode.ObjectToggle)
+            {
+                for (int i = 0; i < objectsToActivate.Length; i++)
+                {
+                    objectsToActivate[i].SetActive(IsToggled);
+                }
+                for (int i = 0; i < objectsToDeactivate.Length; i++)
+                {
+                    objectsToDeactivate[i].SetActive(!IsToggled);
+                }
+            }
+
+            //TODO connect to Light post for feedback -- show bright light sprites for any tracks that have active trains. Otherwise lights off. 
         }
     }
 
