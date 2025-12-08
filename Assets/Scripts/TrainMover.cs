@@ -8,11 +8,12 @@ public class TrainMover : MonoBehaviour
 
     [Min(0f)][SerializeField] private float speed = 25f;
 
+    private float defaultSpeed;
     private float screenBoundary;
 
     void Start()
     {
-       
+        defaultSpeed = speed;
         screenBoundary = Camera.main.orthographicSize * Camera.main.aspect*2;
     }
 
@@ -45,5 +46,11 @@ public class TrainMover : MonoBehaviour
     {
         speed += amount;
         Debug.Log("Train speed increased! Now speed = " + speed);
+    }
+
+    public void ResetToDefaultSpeed()
+    {
+        speed = defaultSpeed;
+        Debug.Log("Train speed RESET! Now speed = " + speed);
     }
 }
