@@ -83,9 +83,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 2/GameOver_2.unity
     guid: 89f711fa248140f4998676c462e9cd1b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Scene 3/Level_3.unity
     guid: e8a9c8bdc89bc6e4ba07930d35e4c8e8
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Done_3.1.unity
+    guid: e939a60422ab6e74d8a3fc880143cc6e
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Next_3.1.unity
+    guid: 4ca7b464b041dbc4bbd82c0e1b08f57a
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Level_3.2.unity
+    guid: 345e938773669944eb666a56851a86ec
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Done_3.2.unity
+    guid: c6bd2e064c1a68844a18ff993481436b
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Next_3.2.unity
+    guid: 4109d4d96add454498c482879a0c3eea
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/Level_3.3.unity
+    guid: c1028054c6048d7448ae9213a651f830
+  - enabled: 1
+    path: Assets/Scenes/Scene 3/GameOver_3.unity
+    guid: cd74b263a1e4ecc46b9a8f3c395591f9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
