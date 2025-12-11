@@ -99,7 +99,7 @@ public class collisions : MonoBehaviour
             }
             else if (sceneName == "Level_3.3")
             {
-                StartCoroutine(DelayLoadScene("Done_3.3"));
+                StartCoroutine(DelayLoadScene("Outro1"));
             }
 
         }
