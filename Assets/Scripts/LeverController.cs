@@ -10,12 +10,16 @@ public class LeverController: MonoBehaviour
     { 
         Reverse, 
         SpeedUp,
+        ResetSpeed,
         ObjectToggle, //Swaps object activity states. 
     }
     public LeverMode mode = LeverMode.SpeedUp;
 
     [Tooltip("Leave blank for Object Toggles")]
     [SerializeField] private TrainMover connectedTrain;
+
+    [Tooltip("Optional extra trains controlled by this lever.")]
+    [SerializeField] private TrainMover[] extraTrains;
 
     [Header("Lever Sprites")]
     public Sprite spriteUp;
@@ -27,10 +31,8 @@ public class LeverController: MonoBehaviour
     private bool hasChosenSide = false;
 
     [Header("Object Toggles")]
-    [SerializeField]
-    private GameObject[] objectsToActivate;
-    [SerializeField]
-    private GameObject[] objectsToDeactivate;
+    [SerializeField] private GameObject[] objectsToActivate;
+    [SerializeField] private GameObject[] objectsToDeactivate;
 
     [SerializeField]
     private bool IsToggled; //starts false 
@@ -78,36 +80,56 @@ public class LeverController: MonoBehaviour
         }
         UpdateLeverVisual();
 
-        if (connectedTrain != null)
+        if (mode == LeverMode.Reverse ||
+            mode == LeverMode.SpeedUp ||
+            mode == LeverMode.ResetSpeed)
         {
-            if (mode == LeverMode.Reverse)
+            ApplyModeToTrain(connectedTrain);
+
+            if (extraTrains != null)
             {
-                connectedTrain.ReverseDirection();
-                Debug.Log("Train Reversed");
-            }
-            else if (mode == LeverMode.SpeedUp)
-            {
-                connectedTrain.SpeedUp(speedUpVal);
-                Debug.Log("Train Sped Up");
+                for (int i = 0; i < extraTrains.Length; i++)
+                {
+                    ApplyModeToTrain(extraTrains[i]);
+                }
             }
         }
-        else
+        else if (mode == LeverMode.ObjectToggle)
         {
-            //Turn on and off given objects. 
             IsToggled = !IsToggled;
-            if (mode == LeverMode.ObjectToggle)
+
+            for (int i = 0; i < objectsToActivate.Length ;i++)
             {
-                for (int i = 0; i < objectsToActivate.Length; i++)
-                {
-                    objectsToActivate[i].SetActive(IsToggled);
-                }
-                for (int i = 0; i < objectsToDeactivate.Length; i++)
-                {
-                    objectsToDeactivate[i].SetActive(!IsToggled);
-                }
+                objectsToActivate[i].SetActive(IsToggled);
             }
 
-            //TODO connect to Light post for feedback -- show bright light sprites for any tracks that have active trains. Otherwise lights off. 
+            for (int i = 0; i < objectsToDeactivate.Length ;i++)
+            {
+                objectsToDeactivate[i].SetActive(!IsToggled);
+            }
+        }
+    }
+
+    private void ApplyModeToTrain(TrainMover train)
+    {
+        if (train == null) return;
+
+        switch (mode)
+        {
+            case LeverMode.Reverse:
+                train.ReverseDirection();
+                Debug.Log("Train Reversed: " + train.name);
+                break;
+
+            case LeverMode.SpeedUp:
+                train.SpeedUp(speedUpVal);
+                Debug.Log("Train Sped Up: " + train.name);
+                break;
+
+            case LeverMode.ResetSpeed:
+                train.ResetToDefaultSpeed();
+                Debug.Log("Train RESET speed: " + train.name);
+                break;
         }
     }
 

@@ -987,15 +987,15 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 73042399
+  m_SortingLayer: 2
   m_SortingOrder: 3
-  m_Sprite: {fileID: -3632506216996023763, guid: fed1e0eb983e93c47a7373d7fbac6377, type: 3}
+  m_Sprite: {fileID: -6271848440514194626, guid: f46a992077148084bb55165f672aaf0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 24.25, y: 18.25}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2975,6 +2975,14 @@ PrefabInstance:
     - target: {fileID: 652147732031514039, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698035653332136843, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
+      propertyPath: loadsNextScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 698035653332136843, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
+      propertyPath: sceneIndexToLoad
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 745031956423575845, guid: 73bf417751025aa41b2f6b91e948f709, type: 3}
       propertyPath: m_Name

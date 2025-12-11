@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df28bdf0e4e697e468414182ed38364f
+guid: 5cde9dc2d1e230940924b3e1a7f032ca
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -172,10 +172,10 @@ TextureImporter:
       name: ItsADumpsterFire_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1259
-        width: 182
-        height: 128
+        x: 0
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: ItsADumpsterFire_1
       rect:
         serializedVersion: 2
-        x: 617
-        y: 1343
-        width: 104
-        height: 110
+        x: 384
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: ItsADumpsterFire_2
       rect:
         serializedVersion: 2
-        x: 839
-        y: 1283
-        width: 182
-        height: 98
+        x: 768
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: ItsADumpsterFire_3
       rect:
         serializedVersion: 2
-        x: 449
-        y: 1259
-        width: 122
-        height: 80
+        x: 0
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: ItsADumpsterFire_4
       rect:
         serializedVersion: 2
-        x: 611
-        y: 1211
-        width: 92
-        height: 92
+        x: 384
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: ItsADumpsterFire_5
       rect:
         serializedVersion: 2
-        x: 575
-        y: 1115
-        width: 14
-        height: 14
+        x: 768
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: ItsADumpsterFire_6
       rect:
         serializedVersion: 2
-        x: 833
-        y: 821
-        width: 302
-        height: 296
+        x: 0
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: ItsADumpsterFire_7
       rect:
         serializedVersion: 2
-        x: 29
-        y: 815
-        width: 338
-        height: 254
+        x: 384
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: ItsADumpsterFire_8
       rect:
         serializedVersion: 2
-        x: 449
-        y: 821
-        width: 302
-        height: 284
+        x: 768
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: ItsADumpsterFire_9
       rect:
         serializedVersion: 2
-        x: 53
-        y: 443
-        width: 296
-        height: 254
+        x: 0
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,319 +388,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_10
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 413
-        width: 308
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d405aba52cc6c010800000000000000
-      internalID: 1208878012161131731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_11
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 473
-        width: 188
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa6244b405314bcb0800000000000000
-      internalID: -4849229663190112593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_12
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 239
-        width: 68
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 559c6386159f5bb60800000000000000
-      internalID: 7761383660879006037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_13
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 239
-        width: 50
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 358d2ed4787e438c0800000000000000
-      internalID: -4020333999021696941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_14
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 233
-        width: 50
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6169745fd2203dfb0800000000000000
-      internalID: -4624349995967474154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_15
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 233
-        width: 68
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3010f226e2cb09c70800000000000000
-      internalID: 8975880964751163651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_16
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 233
-        width: 62
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 474fc35e4ddd3ec60800000000000000
-      internalID: 7846358882258318452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_17
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 233
-        width: 56
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74dc028cb67bc8960800000000000000
-      internalID: 7605655544268901703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_18
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 119
-        width: 62
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ed34cc9db2a742c0800000000000000
-      internalID: -4447407171742450201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_19
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 119
-        width: 50
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 420ef3946cdc187a0800000000000000
-      internalID: -6376589345863770076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_20
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 11
-        width: 56
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80fe8ae26c38b69d0800000000000000
-      internalID: -2779983457761562872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_21
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 11
-        width: 56
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 193989e4457a1f6a0800000000000000
-      internalID: -6417164013488532591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_22
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 11
-        width: 50
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 578b31b2ccfce25e0800000000000000
-      internalID: -1932378714292373387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItsADumpsterFire_23
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 11
-        width: 44
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29bd72d02f1c4f160800000000000000
-      internalID: 7058479761343372178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4764a30fdfe18404ca2226660161606a
     internalID: 0
     vertices: []
     indices: 
@@ -712,21 +404,7 @@ TextureImporter:
     nameFileIdTable:
       ItsADumpsterFire_0: 8587363936249975171
       ItsADumpsterFire_1: -4873990813733347378
-      ItsADumpsterFire_10: 1208878012161131731
-      ItsADumpsterFire_11: -4849229663190112593
-      ItsADumpsterFire_12: 7761383660879006037
-      ItsADumpsterFire_13: -4020333999021696941
-      ItsADumpsterFire_14: -4624349995967474154
-      ItsADumpsterFire_15: 8975880964751163651
-      ItsADumpsterFire_16: 7846358882258318452
-      ItsADumpsterFire_17: 7605655544268901703
-      ItsADumpsterFire_18: -4447407171742450201
-      ItsADumpsterFire_19: -6376589345863770076
       ItsADumpsterFire_2: -6184517712654141952
-      ItsADumpsterFire_20: -2779983457761562872
-      ItsADumpsterFire_21: -6417164013488532591
-      ItsADumpsterFire_22: -1932378714292373387
-      ItsADumpsterFire_23: 7058479761343372178
       ItsADumpsterFire_3: 5277451725695146156
       ItsADumpsterFire_4: -7173628148581633216
       ItsADumpsterFire_5: 8708198706629412405
