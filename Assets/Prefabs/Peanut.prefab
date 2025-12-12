@@ -759,7 +759,7 @@ MonoBehaviour:
   gameOver: {fileID: 5731105372631439011}
   dog_CRASH: {fileID: 4113896963206058609}
   victory: {fileID: 8463663789093724731}
-  scenedelay: 7
+  lever: {fileID: 0}
 --- !u!1 &7506238832454663800
 GameObject:
   m_ObjectHideFlags: 0
