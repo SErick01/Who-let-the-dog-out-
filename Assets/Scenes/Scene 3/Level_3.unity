@@ -8882,8 +8882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedUpVal: 25
   mode: 2
-  connectedTrain: {fileID: 0}
-  extraTrains: []
+  connectedTrain: {fileID: 740641372}
+  extraTrains:
+  - {fileID: 141978406}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteRight: {fileID: -1398008741128633726, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteLeft: {fileID: -8108751853540512089, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -12416,7 +12417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedUpVal: 25
   mode: 2
-  connectedTrain: {fileID: 0}
+  connectedTrain: {fileID: 664567480}
   extraTrains: []
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteRight: {fileID: -1398008741128633726, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -17370,8 +17371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedUpVal: 25
   mode: 2
-  connectedTrain: {fileID: 0}
-  extraTrains: []
+  connectedTrain: {fileID: 892765013}
+  extraTrains:
+  - {fileID: 3761021784027940451}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteRight: {fileID: -1398008741128633726, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteLeft: {fileID: -8108751853540512089, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -22495,8 +22497,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedUpVal: 25
   mode: 2
-  connectedTrain: {fileID: 0}
-  extraTrains: []
+  connectedTrain: {fileID: 1372111030}
+  extraTrains:
+  - {fileID: 1341296048}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteRight: {fileID: -1398008741128633726, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteLeft: {fileID: -8108751853540512089, guid: 47565816b2680784e8431ef5fa421f76, type: 3}

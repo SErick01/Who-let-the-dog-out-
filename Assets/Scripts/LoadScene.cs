@@ -66,6 +66,10 @@ public class LoadScene : NonInstantiatingSingleton<LoadScene>
         {
             index += 1;
         }
+        if (index == 25)
+        {
+            index += 1;
+        }
         if (SceneManager.GetSceneByBuildIndex(index) != null)
         {
             LoadSceneByIndex(index);
