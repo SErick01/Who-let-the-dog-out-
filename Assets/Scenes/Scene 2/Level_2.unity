@@ -13405,11 +13405,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6768284032881326220, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.49610615
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 6768284032881326220, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.936718
+      value: 19.92
       objectReference: {fileID: 0}
     - target: {fileID: 6768284032881326220, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13446,6 +13446,22 @@ PrefabInstance:
     - target: {fileID: 8276671315036723619, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
       propertyPath: m_Name
       value: Butter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Size.x
+      value: 17.716915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Size.y
+      value: 4.547068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.7755623
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.9744046
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

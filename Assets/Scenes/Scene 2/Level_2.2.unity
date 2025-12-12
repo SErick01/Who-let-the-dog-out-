@@ -12049,6 +12049,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Butter
       objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Size.x
+      value: 12.790357
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Size.y
+      value: 5.769569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Offset.x
+      value: -4.790238
+      objectReference: {fileID: 0}
+    - target: {fileID: 8314133186965575917, guid: 0d9216554b661ca45bcc6d61bc91d369, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.585655
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

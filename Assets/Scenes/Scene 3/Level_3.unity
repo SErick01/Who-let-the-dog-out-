@@ -8881,8 +8881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedUpVal: 25
-  mode: 2
-  connectedTrain: {fileID: 740641372}
+  mode: 3
+  connectedTrain: {fileID: 0}
   extraTrains:
   - {fileID: 141978406}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -12416,8 +12416,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedUpVal: 25
-  mode: 2
-  connectedTrain: {fileID: 664567480}
+  mode: 3
+  connectedTrain: {fileID: 0}
   extraTrains: []
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
   spriteRight: {fileID: -1398008741128633726, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -17370,8 +17370,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedUpVal: 25
-  mode: 2
-  connectedTrain: {fileID: 892765013}
+  mode: 3
+  connectedTrain: {fileID: 0}
   extraTrains:
   - {fileID: 3761021784027940451}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -22496,8 +22496,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedUpVal: 25
-  mode: 2
-  connectedTrain: {fileID: 1372111030}
+  mode: 3
+  connectedTrain: {fileID: 0}
   extraTrains:
   - {fileID: 1341296048}
   spriteUp: {fileID: -4042839622477644482, guid: 47565816b2680784e8431ef5fa421f76, type: 3}
@@ -23116,6 +23116,22 @@ PrefabInstance:
     - target: {fileID: 5238458942093268310, guid: 31d79c31a3fe2704f83b8566f75a0eb2, type: 3}
       propertyPath: m_Name
       value: EnviornmentArt-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452114497122029285, guid: 31d79c31a3fe2704f83b8566f75a0eb2, type: 3}
+      propertyPath: m_Size.x
+      value: 13.898269
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452114497122029285, guid: 31d79c31a3fe2704f83b8566f75a0eb2, type: 3}
+      propertyPath: m_Size.y
+      value: 2.9928463
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452114497122029285, guid: 31d79c31a3fe2704f83b8566f75a0eb2, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.6563392
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452114497122029285, guid: 31d79c31a3fe2704f83b8566f75a0eb2, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.39529526
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
