@@ -1,8 +1,9 @@
+
 using System.Collections; //cannot be Systems.Collections.Generic if want you want to use a coroutine
 using Unity.Collections;
 using UnityEngine;
 
-public class CycleController : MonoBehaviour
+public class Lv23Controller : MonoBehaviour
 {
 
     [SerializeField] private float speed = 2f;
@@ -87,14 +88,14 @@ public class CycleController : MonoBehaviour
     void CheckBounds()
     {
         //after hit screen boundary; "respawn/ move back"
-        if (movingLeft && transform.position.x < -screenBoundary)
+        if (movingLeft && transform.position.x < -screenBoundary * 1.5f)
         {
-            transform.position = new Vector3(screenBoundary, transform.position.y, transform.position.z);
+            transform.position = new Vector3(screenBoundary * 1.5f, transform.position.y, transform.position.z);
             ResetVelocity();
         }
-        else if (!movingLeft && transform.position.x > screenBoundary)
+        else if (!movingLeft && transform.position.x > screenBoundary * 1.5f)
         {
-            transform.position = new Vector3(-screenBoundary, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-screenBoundary * 1.5f, transform.position.y, transform.position.z);
             ResetVelocity();
         }
     }
