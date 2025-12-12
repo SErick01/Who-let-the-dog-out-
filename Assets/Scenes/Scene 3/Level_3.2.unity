@@ -7029,7 +7029,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 6bdd342cc90d67843982763016ca1998, type: 3}
+  m_Resource: {fileID: 8300000, guid: fb0f3d3abb4c28d4898f01bf24d59fd2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.77
   m_Pitch: 1
@@ -15238,6 +15238,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624dcbcfccaa1e0419d3fbd2ea257d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obstaclesMask:
+    serializedVersion: 2
+    m_Bits: 0
+  triggerColliderParent: {fileID: 0}
+  mainColliderParent: {fileID: 0}
   soundtrack: {fileID: 1105972666}
   gameOver: {fileID: 1957719323}
   dog_CRASH: {fileID: 434374531}
@@ -18208,7 +18213,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ce0183b8aae795b48962f6c8766e0a80, type: 3}
+  m_Resource: {fileID: 8300000, guid: beb83057b90a1404c833959bcafc2a9a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.77
   m_Pitch: 1
