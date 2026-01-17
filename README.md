@@ -1,4 +1,5 @@
 # Who Let the Dog Out?
+Game Design Class Group Project / Fall 2025
 
 A small Unity game jam prototype where a dog tries to cross a busy road while dodging traffic. Built to explore fast iteration on player movement, obstacle pacing, and animation-driven feedback.
 
